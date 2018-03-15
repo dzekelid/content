@@ -17,7 +17,17 @@ created: "2018-03-15"
 modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/azure-automation/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Automation API
+  description: Automate all of those frequent, time-consuming, and error-prone cloud
+    management tasks
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  humanURL: ""
+  baseURL: ://management.azure.com//
+  tags: Content
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-content-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
