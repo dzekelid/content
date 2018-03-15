@@ -35,7 +35,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sendgrid/mail-settings-plain-content-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sendgrid/mail-settings-plain-content-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
