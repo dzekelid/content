@@ -24,7 +24,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sustainable-facilities-tool-api/contentpages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sustainable-facilities-tool-api/contentpages-parameter-get.md
 x-common:
 - type: x-developer
   url: https://sftool.gov/developers
