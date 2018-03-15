@@ -32,7 +32,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/microsoft-graph/groups-group-id-drive-items-item-id-content-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/microsoft-graph/me-drive-items-parent-id-filename-content-put.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
