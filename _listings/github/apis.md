@@ -27,9 +27,9 @@ tags:
 - Code
 - Change Log Example
 - Change Log
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/github/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/github/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Github
@@ -40,7 +40,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/github/repos-owner-repo-contents-path-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/github/repos-owner-repo-contents-path-delete.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
