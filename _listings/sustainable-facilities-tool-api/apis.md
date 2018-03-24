@@ -10,9 +10,9 @@ tags:
 - Stack Network
 - Federal Government   GSA
 - Environment
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sustainable-facilities-tool-api/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Sustainable Facilities Tool API
@@ -24,7 +24,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/sustainable-facilities-tool-api/contentpages-parameter-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-get.md
 x-common:
 - type: x-developer
   url: https://sftool.gov/developers
