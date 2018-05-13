@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Create Content Category
   version: 1.0.0
+  description: Inserts a new content category.
 schemes:
 - http
 produces:
