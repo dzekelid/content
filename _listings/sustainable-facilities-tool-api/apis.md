@@ -25,17 +25,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-parameter-get.md
-- name: Sustainable Facilities Tool API Content Pages
-  description: Returns all content pages
+- name: Sustainable Facilities Tool API Content Page
+  description: Returns a content page by parameter.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png
   humanURL: https://sftool.gov/
   baseURL: https://api.data.gov//sftool/v1/
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-parameter-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sustainable-facilities-tool-api/contentpages-parameter-get-postman.md
 x-common:
 - type: x-developer
   url: https://sftool.gov/developers
