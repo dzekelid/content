@@ -34,16 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/files-file-id-content-get.md
-- name: Box File upload preflight check
-  description: The Pre-flight check API will verify that a file will be accepted by
-    Box before you send all the bytes over the wire.
+- name: Box Download File
+  description: Retrieves the actual data of the file. An optional version parameter
+    can be set to download a previous version of the file.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/files-content-options.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/files-file-id-content-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/files-file-id-content-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
