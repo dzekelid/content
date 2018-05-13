@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/google-doubleclick/userprofiles-profileid-contentcategories-id-get.md
-- name: Google Doubleclick API Get Content Category
-  description: Updates an existing content category. This method supports patch semantics.
+- name: Google Doubleclick API Create Content Category
+  description: Inserts a new content category.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/google-doubleclick/userprofiles-profileid-contentcategories-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/google-doubleclick/userprofiles-profileid-contentcategories-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
