@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Node Reports Get Content
   version: 1.0.0
+  description: Retrieve the Dsc node reports by node id and report id.
 host: management.azure.com
 basePath: /
 schemes:
