@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Dsc Configuration Get Content
   version: 1.0.0
+  description: Retrieve the configuration script identified by configuration name.
 host: management.azure.com
 basePath: /
 schemes:
