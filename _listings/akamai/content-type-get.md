@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Download an Invoice File
+  description: Download an Invoice File
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Download an Invoice File
       operationId: contenttype
       parameters:
-      - in: String
+      - in: query
         name: contractId
         description: Identifies the contract under which data is aggregated
         type: string
-      - in: String
+      - in: query
         name: filename
         description: Identifies each invoice file
         type: string
-      - in: String
+      - in: query
         name: invoiceNumber
         description: Identifies each unique invoice
         type: string
