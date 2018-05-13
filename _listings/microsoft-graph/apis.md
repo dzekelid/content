@@ -33,16 +33,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/microsoft-graph/groups-id-drive-items-parent-id-children-filename-content-put.md
-- name: Microsoft Graph API Download The Contents Of A Drive Item
-  description: Download the contents of a DriveItem Download the contents for a driveItem.
-    Only driveItem with the file property can be downloaded.
+- name: Microsoft Graph API Upload Or Replace The Contents Of A Drive Item
+  description: Upload or replace the contents of a driveItem The simple upload API
+    allows you to provide the contents of a new file or update the contents of an
+    existing file in a single API call. This method only supports files up to 4MB
+    in size.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/microsoft-graph/groups-group-id-drive-items-item-id-content-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/microsoft-graph/me-drive-items-parent-id-filename-content-put.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
