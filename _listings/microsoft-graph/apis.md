@@ -44,7 +44,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/microsoft-graph/me-drive-items-parent-id-children-filename-content-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/microsoft-graph/groups-id-drive-items-parent-id-children-filename-content-put.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
