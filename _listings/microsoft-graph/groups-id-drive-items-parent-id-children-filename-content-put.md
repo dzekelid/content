@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft Graph API
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex.'
+  title: Microsoft Graph API Upload Or Replace The Contents Of A Drive Item
+  description: Upload or replace the contents of a driveItem The simple upload API
+    allows you to provide the contents of a new file or update the contents of an
+    existing file in a single API call. This method only supports files up to 4MB
+    in size.
   version: 1.0.0
 host: graph.microsoft.com
 basePath: /
