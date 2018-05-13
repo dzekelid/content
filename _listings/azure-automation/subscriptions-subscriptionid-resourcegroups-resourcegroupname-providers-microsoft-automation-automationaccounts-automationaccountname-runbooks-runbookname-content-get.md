@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Runbook Get Content
   version: 1.0.0
+  description: Retrieve the content of runbook identified by runbook name.
 host: management.azure.com
 basePath: /
 schemes:
