@@ -47,6 +47,34 @@ x-common:
   url: http://www.datumbox.com/terms-of-use/
 - type: x-website
   url: http://www.datumbox.com/
+- type: x-apijson--authoritative
+  url: http://apis.io/apisdef/legacy/datumbox.json
+- type: x-blog
+  url: http://blog.datumbox.com/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/Datumbox
+- type: x-contact-form
+  url: http://www.datumbox.com/contact/
+- type: x-twitter
+  url: https://twitter.com/datumbox
+- type: x-developer
+  url: http://www.datumbox.com/machine-learning-api/
+- type: x-documentation
+  url: http://www.datumbox.com/api-sandbox/
+- type: x-email
+  url: info@datumbox.com
+- type: x-facebook
+  url: https://www.facebook.com/Datumbox
+- type: x-github
+  url: https://github.com/datumbox
+- type: x-google-plus
+  url: https://plus.google.com/105921437813621882157/posts
+- type: x-privacy
+  url: http://www.datumbox.com/privacy-policy/
+- type: x-terms-of-service
+  url: http://www.datumbox.com/terms-of-use/
+- type: x-website
+  url: http://www.datumbox.com/
 include: []
 maintainers:
 - FN: Kin Lane
