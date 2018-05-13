@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sendgrid/mail-settings-plain-content-patch.md
-- name: SendGrid Get Mail Settings Plain Content
-  description: "**This endpoint allows you to retrieve your current Plain Content
-    mail settings.**\n\nThe plain content setting will automatically convert any plain
+- name: SendGrid Patch Mail Settings Plain Content
+  description: "**This endpoint allows you to update your current Plain Content mail
+    settings.**\n\nThe plain content setting will automatically convert any plain
     text emails that you send to HTML before sending.\n\nMail settings allow you to
     tell SendGrid specific things to do to every email that you send to your recipients
     over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
@@ -49,9 +49,7 @@ apis:
   tags: Content
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sendgrid/mail-settings-plain-content-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sendgrid/mail-settings-plain-content-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/sendgrid/mail-settings-plain-content-patch.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
