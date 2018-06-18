@@ -1,0 +1,983 @@
+{
+  "info": {
+    "name": "Kaltura VPaaS Get Service Contentdistribution Genericdistributionproveraction Action Deletebyproverid",
+    "_postman_id": "154debd2-c453-47ae-bc1d-58a04cf917c3",
+    "description": "Delete Generic Distribution Provider Action by provider id",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
+  },
+  "item": [
+    {
+      "name": "Service",
+      "item": [
+        {
+          "id": "3e7c501e-d257-4214-bc54-50773ba4b9d9",
+          "name": "attachmentAsset.setContent",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/attachment_attachmentasset/action/setContent?contentResource[assetId]=%7B%7D&contentResource[content]=%7B%7D&contentResource[dropFolderFileId]=%7B%7D&contentResource[entryId]=%7B%7D&contentResource[fileSyncObjectType]=%7B%7D&contentResource[flavorParamsId]=%7B%7D&contentResource[forceAsyncDownload]=%7B%7D&contentResource[keepOriginalFile]=%7B%7D&contentResource[keyPassphrase]=%7B%7D&contentResource[localFilePath]=%7B%7D&contentResource[objectId]=%7B%7D&contentResource[objectSubType]=%7B%7D&contentResource[objectType]=%7B%7D&contentResource[privateKey]=%7B%7D&contentResource[publicKey]=%7B%7D&contentResource[resources]=%7B%7D&contentResource[resource][assetId]=%7B%7D&contentResource[resource][content]=%7B%7D&contentResource[resource][dropFolderFileId]=%7B%7D&contentResource[resource][entryId]=%7B%7D&contentResource[resource][fileSyncObjectType]=%7B%7D&contentResource[resource][flavorParamsId]=%7B%7D&contentResource[resource][forceAsyncDownload]=%7B%7D&contentResource[resource][keepOriginalFile]=%7B%7D&contentResource[resource][keyPassphrase]=%7B%7D&contentResource[resource][localFilePath]=%7B%7D&contentResource[resource][objectId]=%7B%7D&contentResource[resource][objectSubType]=%7B%7D&contentResource[resource][objectType]=%7B%7D&contentResource[resource][privateKey]=%7B%7D&contentResource[resource][publicKey]=%7B%7D&contentResource[resource][resources]=%7B%7D&contentResource[resource][resource][assetId]=%7B%7D&contentResource[resource][resource][content]=%7B%7D&contentResource[resource][resource][dropFolderFileId]=%7B%7D&contentResource[resource][resource][entryId]=%7B%7D&contentResource[resource][resource][fileSyncObjectType]=%7B%7D&contentResource[resource][resource][flavorParamsId]=%7B%7D&contentResource[resource][resource][forceAsyncDownload]=%7B%7D&contentResource[resource][resource][keepOriginalFile]=%7B%7D&contentResource[resource][resource][keyPassphrase]=%7B%7D&contentResource[resource][resource][localFilePath]=%7B%7D&contentResource[resource][resource][objectId]=%7B%7D&contentResource[resource][resource][objectSubType]=%7B%7D&contentResource[resource][resource][objectType]=%7B%7D&contentResource[resource][resource][privateKey]=%7B%7D&contentResource[resource][resource][publicKey]=%7B%7D&contentResource[resource][resource][resources]=%7B%7D&contentResource[resource][resource][resource][assetId]=%7B%7D&contentResource[resource][resource][resource][content]=%7B%7D&contentResource[resource][resource][resource][dropFolderFileId]=%7B%7D&contentResource[resource][resource][resource][entryId]=%7B%7D&contentResource[resource][resource][resource][fileSyncObjectType]=%7B%7D&contentResource[resource][resource][resource][flavorParamsId]=%7B%7D&contentResource[resource][resource][resource][forceAsyncDownload]=%7B%7D&contentResource[resource][resource][resource][keepOriginalFile]=%7B%7D&contentResource[resource][resource][resource][keyPassphrase]=%7B%7D&contentResource[resource][resource][resource][localFilePath]=%7B%7D&contentResource[resource][resource][resource][objectId]=%7B%7D&contentResource[resource][resource][resource][objectSubType]=%7B%7D&contentResource[resource][resource][resource][objectType]=%7B%7D&contentResource[resource][resource][resource][privateKey]=%7B%7D&contentResource[resource][resource][resource][publicKey]=%7B%7D&contentResource[resource][resource][resource][resources]=%7B%7D&contentResource[resource][resource][resource][storageProfileId]=%7B%7D&contentResource[resource][resource][resource][token]=%7B%7D&contentResource[resource][resource][resource][url]=%7B%7D&contentResource[resource][resource][resource][version]=%7B%7D&contentResource[resource][resource][storageProfileId]=%7B%7D&contentResource[resource][resource][token]=%7B%7D&contentResource[resource][resource][url]=%7B%7D&contentResource[resource][resource][version]=%7B%7D&contentResource[resource][storageProfileId]=%7B%7D&contentResource[resource][token]=%7B%7D&contentResource[resource][url]=%7B%7D&contentResource[resource][version]=%7B%7D&contentResource[storageProfileId]=%7B%7D&contentResource[token]=%7B%7D&contentResource[url]=%7B%7D&contentResource[version]=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "contentResource[fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                }
+              ]
+            },
+            "description": "Update content of attachment asset"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "6c66f166-4703-4555-894a-e751d2e1296c"
+            }
+          ]
+        },
+        {
+          "id": "67159888-13a4-486c-b2e5-7f0d4cde940f",
+          "name": "baseEntry.addContent",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/baseentry/action/addContent?entryId=%7B%7D&No Name=%7B%7D&resource[assetId]=%7B%7D&resource[content]=%7B%7D&resource[dropFolderFileId]=%7B%7D&resource[entryId]=%7B%7D&resource[fileSyncObjectType]=%7B%7D&resource[flavorParamsId]=%7B%7D&resource[forceAsyncDownload]=%7B%7D&resource[keepOriginalFile]=%7B%7D&resource[keyPassphrase]=%7B%7D&resource[localFilePath]=%7B%7D&resource[objectId]=%7B%7D&resource[objectSubType]=%7B%7D&resource[objectType]=%7B%7D&resource[privateKey]=%7B%7D&resource[publicKey]=%7B%7D&resource[resources]=%7B%7D&resource[resource][assetId]=%7B%7D&resource[resource][content]=%7B%7D&resource[resource][dropFolderFileId]=%7B%7D&resource[resource][entryId]=%7B%7D&resource[resource][fileSyncObjectType]=%7B%7D&resource[resource][flavorParamsId]=%7B%7D&resource[resource][forceAsyncDownload]=%7B%7D&resource[resource][keepOriginalFile]=%7B%7D&resource[resource][keyPassphrase]=%7B%7D&resource[resource][localFilePath]=%7B%7D&resource[resource][objectId]=%7B%7D&resource[resource][objectSubType]=%7B%7D&resource[resource][objectType]=%7B%7D&resource[resource][privateKey]=%7B%7D&resource[resource][publicKey]=%7B%7D&resource[resource][resources]=%7B%7D&resource[resource][resource][assetId]=%7B%7D&resource[resource][resource][content]=%7B%7D&resource[resource][resource][dropFolderFileId]=%7B%7D&resource[resource][resource][entryId]=%7B%7D&resource[resource][resource][fileSyncObjectType]=%7B%7D&resource[resource][resource][flavorParamsId]=%7B%7D&resource[resource][resource][forceAsyncDownload]=%7B%7D&resource[resource][resource][keepOriginalFile]=%7B%7D&resource[resource][resource][keyPassphrase]=%7B%7D&resource[resource][resource][localFilePath]=%7B%7D&resource[resource][resource][objectId]=%7B%7D&resource[resource][resource][objectSubType]=%7B%7D&resource[resource][resource][objectType]=%7B%7D&resource[resource][resource][privateKey]=%7B%7D&resource[resource][resource][publicKey]=%7B%7D&resource[resource][resource][resources]=%7B%7D&resource[resource][resource][resource][assetId]=%7B%7D&resource[resource][resource][resource][content]=%7B%7D&resource[resource][resource][resource][dropFolderFileId]=%7B%7D&resource[resource][resource][resource][entryId]=%7B%7D&resource[resource][resource][resource][fileSyncObjectType]=%7B%7D&resource[resource][resource][resource][flavorParamsId]=%7B%7D&resource[resource][resource][resource][forceAsyncDownload]=%7B%7D&resource[resource][resource][resource][keepOriginalFile]=%7B%7D&resource[resource][resource][resource][keyPassphrase]=%7B%7D&resource[resource][resource][resource][localFilePath]=%7B%7D&resource[resource][resource][resource][objectId]=%7B%7D&resource[resource][resource][resource][objectSubType]=%7B%7D&resource[resource][resource][resource][objectType]=%7B%7D&resource[resource][resource][resource][privateKey]=%7B%7D&resource[resource][resource][resource][publicKey]=%7B%7D&resource[resource][resource][resource][resources]=%7B%7D&resource[resource][resource][resource][storageProfileId]=%7B%7D&resource[resource][resource][resource][token]=%7B%7D&resource[resource][resource][resource][url]=%7B%7D&resource[resource][resource][resource][version]=%7B%7D&resource[resource][resource][storageProfileId]=%7B%7D&resource[resource][resource][token]=%7B%7D&resource[resource][resource][url]=%7B%7D&resource[resource][resource][version]=%7B%7D&resource[resource][storageProfileId]=%7B%7D&resource[resource][token]=%7B%7D&resource[resource][url]=%7B%7D&resource[resource][version]=%7B%7D&resource[storageProfileId]=%7B%7D&resource[token]=%7B%7D&resource[url]=%7B%7D&resource[version]=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "resource[fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                }
+              ]
+            },
+            "description": "Attach content resource to entry in status NO_MEDIA"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "76c62a38-4a50-4d58-bb8a-dba87657a1ee"
+            }
+          ]
+        },
+        {
+          "id": "9e734eaf-1efe-43fe-9dc9-ce9b9e8ce700",
+          "name": "baseEntry.updateContent",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/baseentry/action/updateContent?advancedOptions[keepManualThumbnails]=%7B%7D&advancedOptions[pluginOptionItems]=%7B%7D&conversionProfileId=%7B%7D&entryId=%7B%7D&No Name=%7B%7D&resource[assetId]=%7B%7D&resource[content]=%7B%7D&resource[dropFolderFileId]=%7B%7D&resource[entryId]=%7B%7D&resource[fileSyncObjectType]=%7B%7D&resource[flavorParamsId]=%7B%7D&resource[forceAsyncDownload]=%7B%7D&resource[keepOriginalFile]=%7B%7D&resource[keyPassphrase]=%7B%7D&resource[localFilePath]=%7B%7D&resource[objectId]=%7B%7D&resource[objectSubType]=%7B%7D&resource[objectType]=%7B%7D&resource[privateKey]=%7B%7D&resource[publicKey]=%7B%7D&resource[resources]=%7B%7D&resource[resource][assetId]=%7B%7D&resource[resource][content]=%7B%7D&resource[resource][dropFolderFileId]=%7B%7D&resource[resource][entryId]=%7B%7D&resource[resource][fileSyncObjectType]=%7B%7D&resource[resource][flavorParamsId]=%7B%7D&resource[resource][forceAsyncDownload]=%7B%7D&resource[resource][keepOriginalFile]=%7B%7D&resource[resource][keyPassphrase]=%7B%7D&resource[resource][localFilePath]=%7B%7D&resource[resource][objectId]=%7B%7D&resource[resource][objectSubType]=%7B%7D&resource[resource][objectType]=%7B%7D&resource[resource][privateKey]=%7B%7D&resource[resource][publicKey]=%7B%7D&resource[resource][resources]=%7B%7D&resource[resource][resource][assetId]=%7B%7D&resource[resource][resource][content]=%7B%7D&resource[resource][resource][dropFolderFileId]=%7B%7D&resource[resource][resource][entryId]=%7B%7D&resource[resource][resource][fileSyncObjectType]=%7B%7D&resource[resource][resource][flavorParamsId]=%7B%7D&resource[resource][resource][forceAsyncDownload]=%7B%7D&resource[resource][resource][keepOriginalFile]=%7B%7D&resource[resource][resource][keyPassphrase]=%7B%7D&resource[resource][resource][localFilePath]=%7B%7D&resource[resource][resource][objectId]=%7B%7D&resource[resource][resource][objectSubType]=%7B%7D&resource[resource][resource][objectType]=%7B%7D&resource[resource][resource][privateKey]=%7B%7D&resource[resource][resource][publicKey]=%7B%7D&resource[resource][resource][resources]=%7B%7D&resource[resource][resource][resource][assetId]=%7B%7D&resource[resource][resource][resource][content]=%7B%7D&resource[resource][resource][resource][dropFolderFileId]=%7B%7D&resource[resource][resource][resource][entryId]=%7B%7D&resource[resource][resource][resource][fileSyncObjectType]=%7B%7D&resource[resource][resource][resource][flavorParamsId]=%7B%7D&resource[resource][resource][resource][forceAsyncDownload]=%7B%7D&resource[resource][resource][resource][keepOriginalFile]=%7B%7D&resource[resource][resource][resource][keyPassphrase]=%7B%7D&resource[resource][resource][resource][localFilePath]=%7B%7D&resource[resource][resource][resource][objectId]=%7B%7D&resource[resource][resource][resource][objectSubType]=%7B%7D&resource[resource][resource][resource][objectType]=%7B%7D&resource[resource][resource][resource][privateKey]=%7B%7D&resource[resource][resource][resource][publicKey]=%7B%7D&resource[resource][resource][resource][resources]=%7B%7D&resource[resource][resource][resource][storageProfileId]=%7B%7D&resource[resource][resource][resource][token]=%7B%7D&resource[resource][resource][resource][url]=%7B%7D&resource[resource][resource][resource][version]=%7B%7D&resource[resource][resource][storageProfileId]=%7B%7D&resource[resource][resource][token]=%7B%7D&resource[resource][resource][url]=%7B%7D&resource[resource][resource][version]=%7B%7D&resource[resource][storageProfileId]=%7B%7D&resource[resource][token]=%7B%7D&resource[resource][url]=%7B%7D&resource[resource][version]=%7B%7D&resource[storageProfileId]=%7B%7D&resource[token]=%7B%7D&resource[url]=%7B%7D&resource[version]=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "resource[fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "resource[resource][resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                }
+              ]
+            },
+            "description": "Update the content resource associated with the entry."
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "666219ea-f7f2-405d-907a-2110fb811466"
+            }
+          ]
+        },
+        {
+          "id": "6ac48bea-0700-454b-95d9-5f14c1a1aae0",
+          "name": "captionAsset.setContent",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/caption_captionasset/action/setContent?contentResource[assetId]=%7B%7D&contentResource[content]=%7B%7D&contentResource[dropFolderFileId]=%7B%7D&contentResource[entryId]=%7B%7D&contentResource[fileSyncObjectType]=%7B%7D&contentResource[flavorParamsId]=%7B%7D&contentResource[forceAsyncDownload]=%7B%7D&contentResource[keepOriginalFile]=%7B%7D&contentResource[keyPassphrase]=%7B%7D&contentResource[localFilePath]=%7B%7D&contentResource[objectId]=%7B%7D&contentResource[objectSubType]=%7B%7D&contentResource[objectType]=%7B%7D&contentResource[privateKey]=%7B%7D&contentResource[publicKey]=%7B%7D&contentResource[resources]=%7B%7D&contentResource[resource][assetId]=%7B%7D&contentResource[resource][content]=%7B%7D&contentResource[resource][dropFolderFileId]=%7B%7D&contentResource[resource][entryId]=%7B%7D&contentResource[resource][fileSyncObjectType]=%7B%7D&contentResource[resource][flavorParamsId]=%7B%7D&contentResource[resource][forceAsyncDownload]=%7B%7D&contentResource[resource][keepOriginalFile]=%7B%7D&contentResource[resource][keyPassphrase]=%7B%7D&contentResource[resource][localFilePath]=%7B%7D&contentResource[resource][objectId]=%7B%7D&contentResource[resource][objectSubType]=%7B%7D&contentResource[resource][objectType]=%7B%7D&contentResource[resource][privateKey]=%7B%7D&contentResource[resource][publicKey]=%7B%7D&contentResource[resource][resources]=%7B%7D&contentResource[resource][resource][assetId]=%7B%7D&contentResource[resource][resource][content]=%7B%7D&contentResource[resource][resource][dropFolderFileId]=%7B%7D&contentResource[resource][resource][entryId]=%7B%7D&contentResource[resource][resource][fileSyncObjectType]=%7B%7D&contentResource[resource][resource][flavorParamsId]=%7B%7D&contentResource[resource][resource][forceAsyncDownload]=%7B%7D&contentResource[resource][resource][keepOriginalFile]=%7B%7D&contentResource[resource][resource][keyPassphrase]=%7B%7D&contentResource[resource][resource][localFilePath]=%7B%7D&contentResource[resource][resource][objectId]=%7B%7D&contentResource[resource][resource][objectSubType]=%7B%7D&contentResource[resource][resource][objectType]=%7B%7D&contentResource[resource][resource][privateKey]=%7B%7D&contentResource[resource][resource][publicKey]=%7B%7D&contentResource[resource][resource][resources]=%7B%7D&contentResource[resource][resource][resource][assetId]=%7B%7D&contentResource[resource][resource][resource][content]=%7B%7D&contentResource[resource][resource][resource][dropFolderFileId]=%7B%7D&contentResource[resource][resource][resource][entryId]=%7B%7D&contentResource[resource][resource][resource][fileSyncObjectType]=%7B%7D&contentResource[resource][resource][resource][flavorParamsId]=%7B%7D&contentResource[resource][resource][resource][forceAsyncDownload]=%7B%7D&contentResource[resource][resource][resource][keepOriginalFile]=%7B%7D&contentResource[resource][resource][resource][keyPassphrase]=%7B%7D&contentResource[resource][resource][resource][localFilePath]=%7B%7D&contentResource[resource][resource][resource][objectId]=%7B%7D&contentResource[resource][resource][resource][objectSubType]=%7B%7D&contentResource[resource][resource][resource][objectType]=%7B%7D&contentResource[resource][resource][resource][privateKey]=%7B%7D&contentResource[resource][resource][resource][publicKey]=%7B%7D&contentResource[resource][resource][resource][resources]=%7B%7D&contentResource[resource][resource][resource][storageProfileId]=%7B%7D&contentResource[resource][resource][resource][token]=%7B%7D&contentResource[resource][resource][resource][url]=%7B%7D&contentResource[resource][resource][resource][version]=%7B%7D&contentResource[resource][resource][storageProfileId]=%7B%7D&contentResource[resource][resource][token]=%7B%7D&contentResource[resource][resource][url]=%7B%7D&contentResource[resource][resource][version]=%7B%7D&contentResource[resource][storageProfileId]=%7B%7D&contentResource[resource][token]=%7B%7D&contentResource[resource][url]=%7B%7D&contentResource[resource][version]=%7B%7D&contentResource[storageProfileId]=%7B%7D&contentResource[token]=%7B%7D&contentResource[url]=%7B%7D&contentResource[version]=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "contentResource[fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                },
+                {
+                  "key": "contentResource[resource][resource][resource][fileData]",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "Represents the $_FILE"
+                }
+              ]
+            },
+            "description": "Update content of caption asset"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "e6599d2b-af72-4bbd-a8e3-566659544039"
+            }
+          ]
+        },
+        {
+          "id": "db038087-d653-4e3f-9ca3-01b0aeab5895",
+          "name": "contentDistributionBatch.createRequiredJobs",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_contentdistributionbatch/action/createRequiredJobs?No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "creates all required jobs according to entry distribution dirty flags"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "c07e85ef-ea72-4a7b-8767-ef7c35608160"
+            }
+          ]
+        },
+        {
+          "id": "19cd44b7-c9fc-44ec-b483-33da30d39c02",
+          "name": "contentDistributionBatch.getAssetUrl",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_contentdistributionbatch/action/getAssetUrl?assetId=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "returns absolute valid url for asset file"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "42582a93-4386-409c-be60-458edb58d842"
+            }
+          ]
+        },
+        {
+          "id": "a0c2d824-43ac-4148-b96e-7683244efe45",
+          "name": "contentDistributionBatch.updateSunStatus",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_contentdistributionbatch/action/updateSunStatus?No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "updates entry distribution sun status in the search engine"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "29bc4d1c-9d80-48ab-b9b3-bfd17f177520"
+            }
+          ]
+        },
+        {
+          "id": "f47a3a69-e550-4dea-a3ce-1af74084927e",
+          "name": "distributionProfile.add",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/add?distributionProfile[accountId]=%7B%7D&distributionProfile[adFreeApplicationGuid]=%7B%7D&distributionProfile[adServerPartnerId]=%7B%7D&distributionProfile[allowAdsenseForVideo]=%7B%7D&distributionProfile[allowComments]=%7B%7D&distributionProfile[allowDownload]=%7B%7D&distributionProfile[allowEmbedding]=%7B%7D&distributionProfile[allowInvideo]=%7B%7D&distributionProfile[allowMidRollAds]=%7B%7D&distributionProfile[allowPostRollAds]=%7B%7D&distributionProfile[allowPreRollAds]=%7B%7D&distributionProfile[allowRatings]=%7B%7D&distributionProfile[allowResponses]=%7B%7D&distributionProfile[allowStreaming]=%7B%7D&distributionProfile[allowSyndication]=%7B%7D&distributionProfile[apiAuthorizeUrl]=%7B%7D&distributionProfile[apiHostUrl]=%7B%7D&distributionProfile[apikey]=%7B%7D&distributionProfile[asperaHost]=%7B%7D&distributionProfile[asperaLogin]=%7B%7D&distributionProfile[asperaPass]=%7B%7D&distributionProfile[asperaPrivateKey]=%7B%7D&distributionProfile[asperaPublicKey]=%7B%7D&distributionProfile[assetFilenameXslt]=%7B%7D&distributionProfile[assumeSuccess]=%7B%7D&distributionProfile[autoCreateFlavors]=%7B%7D&distributionProfile[autoCreateThumb]=%7B%7D&distributionProfile[backgroundImageStandard]=%7B%7D&distributionProfile[backgroundImageWide]=%7B%7D&distributionProfile[basePath]=%7B%7D&distributionProfile[blockOutsideOwnership]=%7B%7D&distributionProfile[bodyXslt]=%7B%7D&distributionProfile[captionAutosync]=%7B%7D&distributionProfile[categoryId]=%7B%7D&distributionProfile[certificateKey]=%7B%7D&distributionProfile[channelCopyright]=%7B%7D&distributionProfile[channelDescription]=%7B%7D&distributionProfile[channelGenerator]=%7B%7D&distributionProfile[channelGuid]=%7B%7D&distributionProfile[channelImageHeight]=%7B%7D&distributionProfile[channelImageLink]=%7B%7D&distributionProfile[channelImageTitle]=%7B%7D&distributionProfile[channelImageUrl]=%7B%7D&distributionProfile[channelImageWidth]=%7B%7D&distributionProfile[channelLanguage]=%7B%7D&distributionProfile[channelLink]=%7B%7D&distributionProfile[channelManagingEditor]=%7B%7D&distributionProfile[channelRating]=%7B%7D&distributionProfile[channelTitle]=%7B%7D&distributionProfile[claimType]=%7B%7D&distributionProfile[commercialPolicy]=%7B%7D&distributionProfile[contactEmail]=%7B%7D&distributionProfile[contactTelephone]=%7B%7D&distributionProfile[contentOwner]=%7B%7D&distributionProfile[copyright]=%7B%7D&distributionProfile[cPlatformTvSeriesField]=%7B%7D&distributionProfile[cPlatformTvSeries]=%7B%7D&distributionProfile[csId]=%7B%7D&distributionProfile[cuePointsProvider]=%7B%7D&distributionProfile[defaultCategory]=%7B%7D&distributionProfile[deleteEnabled]=%7B%7D&distributionProfile[deleteReference]=%7B%7D&distributionProfile[disableEpisodeNumberCustomValidation]=%7B%7D&distributionProfile[disableMetadata]=%7B%7D&distributionProfile[distributeCaptions]=%7B%7D&distributionProfile[distributeCuePoints]=%7B%7D&distributionProfile[distributeRemoteCaptionAssetContent]=%7B%7D&distributionProfile[distributeRemoteFlavorAssetContent]=%7B%7D&distributionProfile[distributeRemoteThumbAssetContent]=%7B%7D&distributionProfile[domainGuid]=%7B%7D&distributionProfile[domainName]=%7B%7D&distributionProfile[domain]=%7B%7D&distributionProfile[downloadPriceCode]=%7B%7D&distributionProfile[email]=%7B%7D&distributionProfile[enableAdServer]=%7B%7D&distributionProfile[entitlements]=%7B%7D&distributionProfile[entitlement]=%7B%7D&distributionProfile[feedAuthorName]=%7B%7D&distributionProfile[feedCopyright]=%7B%7D&distributionProfile[feedDescription]=%7B%7D&distributionProfile[feedImageHeight]=%7B%7D&distributionProfile[feedImageLink]=%7B%7D&distributionProfile[feedImageTitle]=%7B%7D&distributionProfile[feedImageUrl]=%7B%7D&distributionProfile[feedImageWidth]=%7B%7D&distributionProfile[feedLanguage]=%7B%7D&distributionProfile[feedLastBuildDate]=%7B%7D&distributionProfile[feedLink]=%7B%7D&distributionProfile[feedSpecVersion]=%7B%7D&distributionProfile[feedSubtitle]=%7B%7D&distributionProfile[feedTitle]=%7B%7D&distributionProfile[fieldConfigArray]=%7B%7D&distributionProfile[flavorAssetFilenameXslt]=%7B%7D&distributionProfile[flvFlavorParamsId]=%7B%7D&distributionProfile[ftpHost]=%7B%7D&distributionProfile[ftpLogin]=%7B%7D&distributionProfile[ftpPassword]=%7B%7D&distributionProfile[ftpPass]=%7B%7D&distributionProfile[ftpPath]=%7B%7D&distributionProfile[ftpUsername]=%7B%7D&distributionProfile[genericProviderId]=%7B%7D&distributionProfile[geoBlockingMapping]=%7B%7D&distributionProfile[googleClientId]=%7B%7D&distributionProfile[googleClientSecret]=%7B%7D&distributionProfile[googleTokenData]=%7B%7D&distributionProfile[hideViewCount]=%7B%7D&distributionProfile[host]=%7B%7D&distributionProfile[ignoreSchedulingInFeed]=%7B%7D&distributionProfile[ingestUrl]=%7B%7D&distributionProfile[instreamStandard]=%7B%7D&distributionProfile[instreamTrueview]=%7B%7D&distributionProfile[ips]=%7B%7D&distributionProfile[itemLink]=%7B%7D&distributionProfile[itemMediaRating]=%7B%7D&distributionProfile[itemsPerPage]=%7B%7D&distributionProfile[itemType]=%7B%7D&distributionProfile[itemXpathsToExtend]=%7B%7D&distributionProfile[mapAccessControlProfileIds]=%7B%7D&distributionProfile[mapCaptionParamsIds]=%7B%7D&distributionProfile[mapConversionProfileIds]=%7B%7D&distributionProfile[mapFlavorParamsIds]=%7B%7D&distributionProfile[mapMetadataProfileIds]=%7B%7D&distributionProfile[mapStorageProfileIds]=%7B%7D&distributionProfile[mapThumbParamsIds]=%7B%7D&distributionProfile[metadataFilenameXslt]=%7B%7D&distributionProfile[metadataProfileId]=%7B%7D&distributionProfile[metadataXpathsTriggerUpdate]=%7B%7D&distributionProfile[metadataXslt]=%7B%7D&distributionProfile[msnvideoCat]=%7B%7D&distributionProfile[msnvideoTopCat]=%7B%7D&distributionProfile[msnvideoTop]=%7B%7D&distributionProfile[name]=%7B%7D&distributionProfile[notificationEmail]=%7B%7D&distributionProfile[objectType]=%7B%7D&distributionProfile[optionalAssetDistributionRules]=%7B%7D&distributionProfile[optionalFlavorParamsIds]=%7B%7D&distributionProfile[optionalThumbDimensions]=%7B%7D&distributionProfile[overrideManualEdits]=%7B%7D&distributionProfile[ownerName]=%7B%7D&distributionProfile[pageAccessToken]=%7B%7D&distributionProfile[pageGroup]=%7B%7D&distributionProfile[pageId]=%7B%7D&distributionProfile[passphrase]=%7B%7D&distributionProfile[password]=%7B%7D&distributionProfile[permissions]=%7B%7D&distributionProfile[port]=%7B%7D&distributionProfile[priority]=%7B%7D&distributionProfile[privacyStatus]=%7B%7D&distributionProfile[processFeed]=%7B%7D&distributionProfile[protocol]=%7B%7D&distributionProfile[providerId]=%7B%7D&distributionProfile[providerName]=%7B%7D&distributionProfile[providerType]=%7B%7D&distributionProfile[rating]=%7B%7D&distributionProfile[recommendedDcForDownload]=%7B%7D&distributionProfile[recommendedDcForExecute]=%7B%7D&distributionProfile[recommendedStorageProfileForDownload]=%7B%7D&distributionProfile[releaseClaims]=%7B%7D&distributionProfile[remoteAssetParamsId]=%7B%7D&distributionProfile[replaceAirDates]=%7B%7D&distributionProfile[replaceGroup]=%7B%7D&distributionProfile[reportEnabled]=%7B%7D&distributionProfile[requiredAssetDistributionRules]=%7B%7D&distributionProfile[requiredFlavorParamsIds]=%7B%7D&distributionProfile[requiredThumbDimensions]=%7B%7D&distributionProfile[reRequestPermissions]=%7B%7D&distributionProfile[seasonNumber]=%7B%7D&distributionProfile[seasonSynopsis]=%7B%7D&distributionProfile[seasonTuneInInformation]=%7B%7D&distributionProfile[sendMetadataAfterAssets]=%7B%7D&distributionProfile[seriesAdditionalCategories]=%7B%7D&distributionProfile[seriesChannel]=%7B%7D&distributionProfile[seriesPrimaryCategory]=%7B%7D&distributionProfile[sftpBaseDir]=%7B%7D&distributionProfile[sftpBasePath]=%7B%7D&distributionProfile[sftpHost]=%7B%7D&distributionProfile[sftpLogin]=%7B%7D&distributionProfile[sftpPass]=%7B%7D&distributionProfile[sftpPort]=%7B%7D&distributionProfile[sftpPrivateKey]=%7B%7D&distributionProfile[sftpPublicKey]=%7B%7D&distributionProfile[shouldAddThumbExtension]=%7B%7D&distributionProfile[shouldIncludeCaptions]=%7B%7D&distributionProfile[shouldIncludeCuePoints]=%7B%7D&distributionProfile[slFlavorParamsId]=%7B%7D&distributionProfile[slHdFlavorParamsId]=%7B%7D&distributionProfile[sourceFlavorParamsId]=%7B%7D&distributionProfile[sourceFriendlyName]=%7B%7D&distributionProfile[source]=%7B%7D&distributionProfile[state]=%7B%7D&distributionProfile[status]=%7B%7D&distributionProfile[storageProfileId]=%7B%7D&distributionProfile[streamingPriceCode]=%7B%7D&distributionProfile[strict]=%7B%7D&distributionProfile[submitAction][ftpPassiveMode]=%7B%7D&distributionProfile[submitAction][httpFieldName]=%7B%7D&distributionProfile[submitAction][httpFileName]=%7B%7D&distributionProfile[submitAction][password]=%7B%7D&distributionProfile[submitAction][protocol]=%7B%7D&distributionProfile[submitAction][serverPath]=%7B%7D&distributionProfile[submitAction][serverUrl]=%7B%7D&distributionProfile[submitAction][username]=%7B%7D&distributionProfile[submitEnabled]=%7B%7D&distributionProfile[sunriseDefaultOffset]=%7B%7D&distributionProfile[sunsetDefaultOffset]=%7B%7D&distributionProfile[tags]=%7B%7D&distributionProfile[targetAccountId]=%7B%7D&distributionProfile[targetLoginId]=%7B%7D&distributionProfile[targetLoginPassword]=%7B%7D&distributionProfile[targetServiceUrl]=%7B%7D&distributionProfile[target]=%7B%7D&distributionProfile[thumbnailAssetFilenameXslt]=%7B%7D&distributionProfile[ugcPolicy]=%7B%7D&distributionProfile[updateEnabled]=%7B%7D&distributionProfile[upstreamNetworkId]=%7B%7D&distributionProfile[upstreamNetworkName]=%7B%7D&distributionProfile[upstreamVideoId]=%7B%7D&distributionProfile[urgentReference]=%7B%7D&distributionProfile[useCategoryEntries]=%7B%7D&distributionProfile[userAccessToken]=%7B%7D&distributionProfile[username]=%7B%7D&distributionProfile[user]=%7B%7D&distributionProfile[videoMediaType]=%7B%7D&distributionProfile[wmvFlavorParamsId]=%7B%7D&distributionProfile[xsltFile]=%7B%7D&distributionProfile[xsl]=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add new Distribution Profile"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "bbc5f11e-90ea-46b5-8605-59231b1c6907"
+            }
+          ]
+        },
+        {
+          "id": "39614841-7ee6-43e4-ae73-1a6fcb252492",
+          "name": "distributionProfile.delete",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/delete?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Delete Distribution Profile by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "96e2a4c2-3678-4bc0-8e7c-f9ff86d624b0"
+            }
+          ]
+        },
+        {
+          "id": "08777f64-e891-4838-bc6b-70b5bd8e610d",
+          "name": "distributionProfile.get",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/get?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Get Distribution Profile by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "8ac1f079-12d4-4812-9b61-e6ba77d6bcce"
+            }
+          ]
+        },
+        {
+          "id": "764a3986-ba1f-436f-a56e-c034ecb81b07",
+          "name": "distributionProfile.list",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/list?filter[advancedSearch][attribute]=%7B%7D&filter[advancedSearch][categoriesMatchOr]=%7B%7D&filter[advancedSearch][categoryEntryStatusIn]=%7B%7D&filter[advancedSearch][categoryIdEqual]=%7B%7D&filter[advancedSearch][comparison]=%7B%7D&filter[advancedSearch][contentLike]=%7B%7D&filter[advancedSearch][contentMultiLikeAnd]=%7B%7D&filter[advancedSearch][contentMultiLikeOr]=%7B%7D&filter[advancedSearch][cuePointsFreeText]=%7B%7D&filter[advancedSearch][cuePointSubTypeEqual]=%7B%7D&filter[advancedSearch][cuePointTypeIn]=%7B%7D&filter[advancedSearch][depthGreaterThanEqual]=%7B%7D&filter[advancedSearch][distributionProfileId]=%7B%7D&filter[advancedSearch][distributionSunStatus]=%7B%7D&filter[advancedSearch][entryDistributionFlag]=%7B%7D&filter[advancedSearch][entryDistributionStatus]=%7B%7D&filter[advancedSearch][entryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][extendedStatusEqual]=%7B%7D&filter[advancedSearch][extendedStatusIn]=%7B%7D&filter[advancedSearch][field]=%7B%7D&filter[advancedSearch][hasEntryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][idEqual]=%7B%7D&filter[advancedSearch][idIn]=%7B%7D&filter[advancedSearch][indexIdGreaterThan]=%7B%7D&filter[advancedSearch][isQuiz]=%7B%7D&filter[advancedSearch][items]=%7B%7D&filter[advancedSearch][memberIdEq]=%7B%7D&filter[advancedSearch][memberIdIn]=%7B%7D&filter[advancedSearch][memberPermissionsMatchAnd]=%7B%7D&filter[advancedSearch][memberPermissionsMatchOr]=%7B%7D&filter[advancedSearch][metadataProfileId]=%7B%7D&filter[advancedSearch][noDistributionProfiles]=%7B%7D&filter[advancedSearch][not]=%7B%7D&filter[advancedSearch][objectType]=%7B%7D&filter[advancedSearch][orderBy]=%7B%7D&filter[advancedSearch][type]=%7B%7D&filter[advancedSearch][updatedAtGreaterThanOrEqual]=%7B%7D&filter[advancedSearch][updatedAtLessThanOrEqual]=%7B%7D&filter[advancedSearch][userIdEqual]=%7B%7D&filter[advancedSearch][userIdIn]=%7B%7D&filter[advancedSearch][value]=%7B%7D&filter[advancedSearch][watermarkId]=%7B%7D&filter[createdAtGreaterThanOrEqual]=%7B%7D&filter[createdAtLessThanOrEqual]=%7B%7D&filter[idEqual]=%7B%7D&filter[idIn]=%7B%7D&filter[objectType]=%7B%7D&filter[orderBy]=%7B%7D&filter[statusEqual]=%7B%7D&filter[statusIn]=%7B%7D&filter[updatedAtGreaterThanOrEqual]=%7B%7D&filter[updatedAtLessThanOrEqual]=%7B%7D&No Name=%7B%7D&pager[pageIndex]=%7B%7D&pager[pageSize]=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "List all distribution providers"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "b9e0f8c1-3def-4ad9-affa-fb5f3f0d28f2"
+            }
+          ]
+        },
+        {
+          "id": "cf53454f-eca6-42c4-acf0-374c008c60c0",
+          "name": "distributionProfile.listByPartner",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/listByPartner?filter[advancedSearch][attribute]=%7B%7D&filter[advancedSearch][categoriesMatchOr]=%7B%7D&filter[advancedSearch][categoryEntryStatusIn]=%7B%7D&filter[advancedSearch][categoryIdEqual]=%7B%7D&filter[advancedSearch][comparison]=%7B%7D&filter[advancedSearch][contentLike]=%7B%7D&filter[advancedSearch][contentMultiLikeAnd]=%7B%7D&filter[advancedSearch][contentMultiLikeOr]=%7B%7D&filter[advancedSearch][cuePointsFreeText]=%7B%7D&filter[advancedSearch][cuePointSubTypeEqual]=%7B%7D&filter[advancedSearch][cuePointTypeIn]=%7B%7D&filter[advancedSearch][depthGreaterThanEqual]=%7B%7D&filter[advancedSearch][distributionProfileId]=%7B%7D&filter[advancedSearch][distributionSunStatus]=%7B%7D&filter[advancedSearch][entryDistributionFlag]=%7B%7D&filter[advancedSearch][entryDistributionStatus]=%7B%7D&filter[advancedSearch][entryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][extendedStatusEqual]=%7B%7D&filter[advancedSearch][extendedStatusIn]=%7B%7D&filter[advancedSearch][field]=%7B%7D&filter[advancedSearch][hasEntryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][idEqual]=%7B%7D&filter[advancedSearch][idIn]=%7B%7D&filter[advancedSearch][indexIdGreaterThan]=%7B%7D&filter[advancedSearch][isQuiz]=%7B%7D&filter[advancedSearch][items]=%7B%7D&filter[advancedSearch][memberIdEq]=%7B%7D&filter[advancedSearch][memberIdIn]=%7B%7D&filter[advancedSearch][memberPermissionsMatchAnd]=%7B%7D&filter[advancedSearch][memberPermissionsMatchOr]=%7B%7D&filter[advancedSearch][metadataProfileId]=%7B%7D&filter[advancedSearch][noDistributionProfiles]=%7B%7D&filter[advancedSearch][not]=%7B%7D&filter[advancedSearch][objectType]=%7B%7D&filter[advancedSearch][orderBy]=%7B%7D&filter[advancedSearch][type]=%7B%7D&filter[advancedSearch][updatedAtGreaterThanOrEqual]=%7B%7D&filter[advancedSearch][updatedAtLessThanOrEqual]=%7B%7D&filter[advancedSearch][userIdEqual]=%7B%7D&filter[advancedSearch][userIdIn]=%7B%7D&filter[advancedSearch][value]=%7B%7D&filter[advancedSearch][watermarkId]=%7B%7D&filter[groupTypeEq]=%7B%7D&filter[groupTypeIn]=%7B%7D&filter[idEqual]=%7B%7D&filter[idIn]=%7B%7D&filter[idNotIn]=%7B%7D&filter[nameEqual]=%7B%7D&filter[nameLike]=%7B%7D&filter[nameMultiLikeAnd]=%7B%7D&filter[nameMultiLikeOr]=%7B%7D&filter[objectType]=%7B%7D&filter[orderBy]=%7B%7D&filter[partnerGroupTypeEqual]=%7B%7D&filter[partnerNameDescriptionWebsiteAdminNameAdminEmailLike]=%7B%7D&filter[partnerPackageEqual]=%7B%7D&filter[partnerPackageGreaterThanOrEqual]=%7B%7D&filter[partnerPackageIn]=%7B%7D&filter[partnerPackageLessThanOrEqual]=%7B%7D&filter[partnerPermissionsExist]=%7B%7D&filter[statusEqual]=%7B%7D&filter[statusIn]=%7B%7D&No Name=%7B%7D&pager[pageIndex]=%7B%7D&pager[pageSize]=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Get Service Contentdistribution Distributionprofile Action Listbypartner"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "0df31e75-fd05-4b00-b106-3f4020765ffb"
+            }
+          ]
+        },
+        {
+          "id": "55c12278-26e1-419e-983c-c3e69f5a26b9",
+          "name": "distributionProfile.update",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/update?distributionProfile[accountId]=%7B%7D&distributionProfile[adFreeApplicationGuid]=%7B%7D&distributionProfile[adServerPartnerId]=%7B%7D&distributionProfile[allowAdsenseForVideo]=%7B%7D&distributionProfile[allowComments]=%7B%7D&distributionProfile[allowDownload]=%7B%7D&distributionProfile[allowEmbedding]=%7B%7D&distributionProfile[allowInvideo]=%7B%7D&distributionProfile[allowMidRollAds]=%7B%7D&distributionProfile[allowPostRollAds]=%7B%7D&distributionProfile[allowPreRollAds]=%7B%7D&distributionProfile[allowRatings]=%7B%7D&distributionProfile[allowResponses]=%7B%7D&distributionProfile[allowStreaming]=%7B%7D&distributionProfile[allowSyndication]=%7B%7D&distributionProfile[apiAuthorizeUrl]=%7B%7D&distributionProfile[apiHostUrl]=%7B%7D&distributionProfile[apikey]=%7B%7D&distributionProfile[asperaHost]=%7B%7D&distributionProfile[asperaLogin]=%7B%7D&distributionProfile[asperaPass]=%7B%7D&distributionProfile[asperaPrivateKey]=%7B%7D&distributionProfile[asperaPublicKey]=%7B%7D&distributionProfile[assetFilenameXslt]=%7B%7D&distributionProfile[assumeSuccess]=%7B%7D&distributionProfile[autoCreateFlavors]=%7B%7D&distributionProfile[autoCreateThumb]=%7B%7D&distributionProfile[backgroundImageStandard]=%7B%7D&distributionProfile[backgroundImageWide]=%7B%7D&distributionProfile[basePath]=%7B%7D&distributionProfile[blockOutsideOwnership]=%7B%7D&distributionProfile[bodyXslt]=%7B%7D&distributionProfile[captionAutosync]=%7B%7D&distributionProfile[categoryId]=%7B%7D&distributionProfile[certificateKey]=%7B%7D&distributionProfile[channelCopyright]=%7B%7D&distributionProfile[channelDescription]=%7B%7D&distributionProfile[channelGenerator]=%7B%7D&distributionProfile[channelGuid]=%7B%7D&distributionProfile[channelImageHeight]=%7B%7D&distributionProfile[channelImageLink]=%7B%7D&distributionProfile[channelImageTitle]=%7B%7D&distributionProfile[channelImageUrl]=%7B%7D&distributionProfile[channelImageWidth]=%7B%7D&distributionProfile[channelLanguage]=%7B%7D&distributionProfile[channelLink]=%7B%7D&distributionProfile[channelManagingEditor]=%7B%7D&distributionProfile[channelRating]=%7B%7D&distributionProfile[channelTitle]=%7B%7D&distributionProfile[claimType]=%7B%7D&distributionProfile[commercialPolicy]=%7B%7D&distributionProfile[contactEmail]=%7B%7D&distributionProfile[contactTelephone]=%7B%7D&distributionProfile[contentOwner]=%7B%7D&distributionProfile[copyright]=%7B%7D&distributionProfile[cPlatformTvSeriesField]=%7B%7D&distributionProfile[cPlatformTvSeries]=%7B%7D&distributionProfile[csId]=%7B%7D&distributionProfile[cuePointsProvider]=%7B%7D&distributionProfile[defaultCategory]=%7B%7D&distributionProfile[deleteEnabled]=%7B%7D&distributionProfile[deleteReference]=%7B%7D&distributionProfile[disableEpisodeNumberCustomValidation]=%7B%7D&distributionProfile[disableMetadata]=%7B%7D&distributionProfile[distributeCaptions]=%7B%7D&distributionProfile[distributeCuePoints]=%7B%7D&distributionProfile[distributeRemoteCaptionAssetContent]=%7B%7D&distributionProfile[distributeRemoteFlavorAssetContent]=%7B%7D&distributionProfile[distributeRemoteThumbAssetContent]=%7B%7D&distributionProfile[domainGuid]=%7B%7D&distributionProfile[domainName]=%7B%7D&distributionProfile[domain]=%7B%7D&distributionProfile[downloadPriceCode]=%7B%7D&distributionProfile[email]=%7B%7D&distributionProfile[enableAdServer]=%7B%7D&distributionProfile[entitlements]=%7B%7D&distributionProfile[entitlement]=%7B%7D&distributionProfile[feedAuthorName]=%7B%7D&distributionProfile[feedCopyright]=%7B%7D&distributionProfile[feedDescription]=%7B%7D&distributionProfile[feedImageHeight]=%7B%7D&distributionProfile[feedImageLink]=%7B%7D&distributionProfile[feedImageTitle]=%7B%7D&distributionProfile[feedImageUrl]=%7B%7D&distributionProfile[feedImageWidth]=%7B%7D&distributionProfile[feedLanguage]=%7B%7D&distributionProfile[feedLastBuildDate]=%7B%7D&distributionProfile[feedLink]=%7B%7D&distributionProfile[feedSpecVersion]=%7B%7D&distributionProfile[feedSubtitle]=%7B%7D&distributionProfile[feedTitle]=%7B%7D&distributionProfile[fieldConfigArray]=%7B%7D&distributionProfile[flavorAssetFilenameXslt]=%7B%7D&distributionProfile[flvFlavorParamsId]=%7B%7D&distributionProfile[ftpHost]=%7B%7D&distributionProfile[ftpLogin]=%7B%7D&distributionProfile[ftpPassword]=%7B%7D&distributionProfile[ftpPass]=%7B%7D&distributionProfile[ftpPath]=%7B%7D&distributionProfile[ftpUsername]=%7B%7D&distributionProfile[genericProviderId]=%7B%7D&distributionProfile[geoBlockingMapping]=%7B%7D&distributionProfile[googleClientId]=%7B%7D&distributionProfile[googleClientSecret]=%7B%7D&distributionProfile[googleTokenData]=%7B%7D&distributionProfile[hideViewCount]=%7B%7D&distributionProfile[host]=%7B%7D&distributionProfile[ignoreSchedulingInFeed]=%7B%7D&distributionProfile[ingestUrl]=%7B%7D&distributionProfile[instreamStandard]=%7B%7D&distributionProfile[instreamTrueview]=%7B%7D&distributionProfile[ips]=%7B%7D&distributionProfile[itemLink]=%7B%7D&distributionProfile[itemMediaRating]=%7B%7D&distributionProfile[itemsPerPage]=%7B%7D&distributionProfile[itemType]=%7B%7D&distributionProfile[itemXpathsToExtend]=%7B%7D&distributionProfile[mapAccessControlProfileIds]=%7B%7D&distributionProfile[mapCaptionParamsIds]=%7B%7D&distributionProfile[mapConversionProfileIds]=%7B%7D&distributionProfile[mapFlavorParamsIds]=%7B%7D&distributionProfile[mapMetadataProfileIds]=%7B%7D&distributionProfile[mapStorageProfileIds]=%7B%7D&distributionProfile[mapThumbParamsIds]=%7B%7D&distributionProfile[metadataFilenameXslt]=%7B%7D&distributionProfile[metadataProfileId]=%7B%7D&distributionProfile[metadataXpathsTriggerUpdate]=%7B%7D&distributionProfile[metadataXslt]=%7B%7D&distributionProfile[msnvideoCat]=%7B%7D&distributionProfile[msnvideoTopCat]=%7B%7D&distributionProfile[msnvideoTop]=%7B%7D&distributionProfile[name]=%7B%7D&distributionProfile[notificationEmail]=%7B%7D&distributionProfile[objectType]=%7B%7D&distributionProfile[optionalAssetDistributionRules]=%7B%7D&distributionProfile[optionalFlavorParamsIds]=%7B%7D&distributionProfile[optionalThumbDimensions]=%7B%7D&distributionProfile[overrideManualEdits]=%7B%7D&distributionProfile[ownerName]=%7B%7D&distributionProfile[pageAccessToken]=%7B%7D&distributionProfile[pageGroup]=%7B%7D&distributionProfile[pageId]=%7B%7D&distributionProfile[passphrase]=%7B%7D&distributionProfile[password]=%7B%7D&distributionProfile[permissions]=%7B%7D&distributionProfile[port]=%7B%7D&distributionProfile[priority]=%7B%7D&distributionProfile[privacyStatus]=%7B%7D&distributionProfile[processFeed]=%7B%7D&distributionProfile[protocol]=%7B%7D&distributionProfile[providerId]=%7B%7D&distributionProfile[providerName]=%7B%7D&distributionProfile[providerType]=%7B%7D&distributionProfile[rating]=%7B%7D&distributionProfile[recommendedDcForDownload]=%7B%7D&distributionProfile[recommendedDcForExecute]=%7B%7D&distributionProfile[recommendedStorageProfileForDownload]=%7B%7D&distributionProfile[releaseClaims]=%7B%7D&distributionProfile[remoteAssetParamsId]=%7B%7D&distributionProfile[replaceAirDates]=%7B%7D&distributionProfile[replaceGroup]=%7B%7D&distributionProfile[reportEnabled]=%7B%7D&distributionProfile[requiredAssetDistributionRules]=%7B%7D&distributionProfile[requiredFlavorParamsIds]=%7B%7D&distributionProfile[requiredThumbDimensions]=%7B%7D&distributionProfile[reRequestPermissions]=%7B%7D&distributionProfile[seasonNumber]=%7B%7D&distributionProfile[seasonSynopsis]=%7B%7D&distributionProfile[seasonTuneInInformation]=%7B%7D&distributionProfile[sendMetadataAfterAssets]=%7B%7D&distributionProfile[seriesAdditionalCategories]=%7B%7D&distributionProfile[seriesChannel]=%7B%7D&distributionProfile[seriesPrimaryCategory]=%7B%7D&distributionProfile[sftpBaseDir]=%7B%7D&distributionProfile[sftpBasePath]=%7B%7D&distributionProfile[sftpHost]=%7B%7D&distributionProfile[sftpLogin]=%7B%7D&distributionProfile[sftpPass]=%7B%7D&distributionProfile[sftpPort]=%7B%7D&distributionProfile[sftpPrivateKey]=%7B%7D&distributionProfile[sftpPublicKey]=%7B%7D&distributionProfile[shouldAddThumbExtension]=%7B%7D&distributionProfile[shouldIncludeCaptions]=%7B%7D&distributionProfile[shouldIncludeCuePoints]=%7B%7D&distributionProfile[slFlavorParamsId]=%7B%7D&distributionProfile[slHdFlavorParamsId]=%7B%7D&distributionProfile[sourceFlavorParamsId]=%7B%7D&distributionProfile[sourceFriendlyName]=%7B%7D&distributionProfile[source]=%7B%7D&distributionProfile[state]=%7B%7D&distributionProfile[status]=%7B%7D&distributionProfile[storageProfileId]=%7B%7D&distributionProfile[streamingPriceCode]=%7B%7D&distributionProfile[strict]=%7B%7D&distributionProfile[submitAction][ftpPassiveMode]=%7B%7D&distributionProfile[submitAction][httpFieldName]=%7B%7D&distributionProfile[submitAction][httpFileName]=%7B%7D&distributionProfile[submitAction][password]=%7B%7D&distributionProfile[submitAction][protocol]=%7B%7D&distributionProfile[submitAction][serverPath]=%7B%7D&distributionProfile[submitAction][serverUrl]=%7B%7D&distributionProfile[submitAction][username]=%7B%7D&distributionProfile[submitEnabled]=%7B%7D&distributionProfile[sunriseDefaultOffset]=%7B%7D&distributionProfile[sunsetDefaultOffset]=%7B%7D&distributionProfile[tags]=%7B%7D&distributionProfile[targetAccountId]=%7B%7D&distributionProfile[targetLoginId]=%7B%7D&distributionProfile[targetLoginPassword]=%7B%7D&distributionProfile[targetServiceUrl]=%7B%7D&distributionProfile[target]=%7B%7D&distributionProfile[thumbnailAssetFilenameXslt]=%7B%7D&distributionProfile[ugcPolicy]=%7B%7D&distributionProfile[updateEnabled]=%7B%7D&distributionProfile[upstreamNetworkId]=%7B%7D&distributionProfile[upstreamNetworkName]=%7B%7D&distributionProfile[upstreamVideoId]=%7B%7D&distributionProfile[urgentReference]=%7B%7D&distributionProfile[useCategoryEntries]=%7B%7D&distributionProfile[userAccessToken]=%7B%7D&distributionProfile[username]=%7B%7D&distributionProfile[user]=%7B%7D&distributionProfile[videoMediaType]=%7B%7D&distributionProfile[wmvFlavorParamsId]=%7B%7D&distributionProfile[xsltFile]=%7B%7D&distributionProfile[xsl]=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Update Distribution Profile by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "4247adb6-a200-4868-a9f6-c53f6abbd801"
+            }
+          ]
+        },
+        {
+          "id": "c9c35b68-4ff8-458d-bd64-1717faa40640",
+          "name": "distributionProfile.updateStatus",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprofile/action/updateStatus?id=%7B%7D&No Name=%7B%7D&status=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Update Distribution Profile status by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "d88daad8-8c07-4d14-9493-4cc4078d8ab9"
+            }
+          ]
+        },
+        {
+          "id": "7ffdc1e5-b008-4a28-bbec-8e9710d6228b",
+          "name": "distributionProvider.list",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_distributionprovider/action/list?filter[advancedSearch][attribute]=%7B%7D&filter[advancedSearch][categoriesMatchOr]=%7B%7D&filter[advancedSearch][categoryEntryStatusIn]=%7B%7D&filter[advancedSearch][categoryIdEqual]=%7B%7D&filter[advancedSearch][comparison]=%7B%7D&filter[advancedSearch][contentLike]=%7B%7D&filter[advancedSearch][contentMultiLikeAnd]=%7B%7D&filter[advancedSearch][contentMultiLikeOr]=%7B%7D&filter[advancedSearch][cuePointsFreeText]=%7B%7D&filter[advancedSearch][cuePointSubTypeEqual]=%7B%7D&filter[advancedSearch][cuePointTypeIn]=%7B%7D&filter[advancedSearch][depthGreaterThanEqual]=%7B%7D&filter[advancedSearch][distributionProfileId]=%7B%7D&filter[advancedSearch][distributionSunStatus]=%7B%7D&filter[advancedSearch][entryDistributionFlag]=%7B%7D&filter[advancedSearch][entryDistributionStatus]=%7B%7D&filter[advancedSearch][entryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][extendedStatusEqual]=%7B%7D&filter[advancedSearch][extendedStatusIn]=%7B%7D&filter[advancedSearch][field]=%7B%7D&filter[advancedSearch][hasEntryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][idEqual]=%7B%7D&filter[advancedSearch][idIn]=%7B%7D&filter[advancedSearch][indexIdGreaterThan]=%7B%7D&filter[advancedSearch][isQuiz]=%7B%7D&filter[advancedSearch][items]=%7B%7D&filter[advancedSearch][memberIdEq]=%7B%7D&filter[advancedSearch][memberIdIn]=%7B%7D&filter[advancedSearch][memberPermissionsMatchAnd]=%7B%7D&filter[advancedSearch][memberPermissionsMatchOr]=%7B%7D&filter[advancedSearch][metadataProfileId]=%7B%7D&filter[advancedSearch][noDistributionProfiles]=%7B%7D&filter[advancedSearch][not]=%7B%7D&filter[advancedSearch][objectType]=%7B%7D&filter[advancedSearch][orderBy]=%7B%7D&filter[advancedSearch][type]=%7B%7D&filter[advancedSearch][updatedAtGreaterThanOrEqual]=%7B%7D&filter[advancedSearch][updatedAtLessThanOrEqual]=%7B%7D&filter[advancedSearch][userIdEqual]=%7B%7D&filter[advancedSearch][userIdIn]=%7B%7D&filter[advancedSearch][value]=%7B%7D&filter[advancedSearch][watermarkId]=%7B%7D&filter[createdAtGreaterThanOrEqual]=%7B%7D&filter[createdAtLessThanOrEqual]=%7B%7D&filter[idEqual]=%7B%7D&filter[idIn]=%7B%7D&filter[isDefaultEqual]=%7B%7D&filter[isDefaultIn]=%7B%7D&filter[objectType]=%7B%7D&filter[orderBy]=%7B%7D&filter[partnerIdEqual]=%7B%7D&filter[partnerIdIn]=%7B%7D&filter[statusEqual]=%7B%7D&filter[statusIn]=%7B%7D&filter[typeEqual]=%7B%7D&filter[typeIn]=%7B%7D&filter[updatedAtGreaterThanOrEqual]=%7B%7D&filter[updatedAtLessThanOrEqual]=%7B%7D&No Name=%7B%7D&pager[pageIndex]=%7B%7D&pager[pageSize]=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "List all distribution providers"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "d65de000-b266-4fd0-8cde-f786ab873415"
+            }
+          ]
+        },
+        {
+          "id": "68cec38f-550c-4408-9419-0e8c5d2f86e9",
+          "name": "entryDistribution.add",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/add?entryDistribution[assetIds]=%7B%7D&entryDistribution[distributionProfileId]=%7B%7D&entryDistribution[entryId]=%7B%7D&entryDistribution[flavorAssetIds]=%7B%7D&entryDistribution[sunrise]=%7B%7D&entryDistribution[sunset]=%7B%7D&entryDistribution[thumbAssetIds]=%7B%7D&entryDistribution[validationErrors]=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add new Entry Distribution"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "62adf780-e065-4331-a692-40c846cb3cdb"
+            }
+          ]
+        },
+        {
+          "id": "a8d6c4ed-895c-47f8-9fa8-4ef66e3f9746",
+          "name": "entryDistribution.delete",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/delete?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Delete Entry Distribution by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "3f0609a1-61a2-4cda-8774-60482f6e67a5"
+            }
+          ]
+        },
+        {
+          "id": "c5ac4d01-d209-498e-aaa0-e4dc1ce2d8b8",
+          "name": "entryDistribution.get",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/get?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Get Entry Distribution by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "30479e12-3749-405c-8d29-6daa71efbf43"
+            }
+          ]
+        },
+        {
+          "id": "344123d1-c854-46af-8882-61b642cc0807",
+          "name": "entryDistribution.list",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/list?filter[advancedSearch][attribute]=%7B%7D&filter[advancedSearch][categoriesMatchOr]=%7B%7D&filter[advancedSearch][categoryEntryStatusIn]=%7B%7D&filter[advancedSearch][categoryIdEqual]=%7B%7D&filter[advancedSearch][comparison]=%7B%7D&filter[advancedSearch][contentLike]=%7B%7D&filter[advancedSearch][contentMultiLikeAnd]=%7B%7D&filter[advancedSearch][contentMultiLikeOr]=%7B%7D&filter[advancedSearch][cuePointsFreeText]=%7B%7D&filter[advancedSearch][cuePointSubTypeEqual]=%7B%7D&filter[advancedSearch][cuePointTypeIn]=%7B%7D&filter[advancedSearch][depthGreaterThanEqual]=%7B%7D&filter[advancedSearch][distributionProfileId]=%7B%7D&filter[advancedSearch][distributionSunStatus]=%7B%7D&filter[advancedSearch][entryDistributionFlag]=%7B%7D&filter[advancedSearch][entryDistributionStatus]=%7B%7D&filter[advancedSearch][entryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][extendedStatusEqual]=%7B%7D&filter[advancedSearch][extendedStatusIn]=%7B%7D&filter[advancedSearch][field]=%7B%7D&filter[advancedSearch][hasEntryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][idEqual]=%7B%7D&filter[advancedSearch][idIn]=%7B%7D&filter[advancedSearch][indexIdGreaterThan]=%7B%7D&filter[advancedSearch][isQuiz]=%7B%7D&filter[advancedSearch][items]=%7B%7D&filter[advancedSearch][memberIdEq]=%7B%7D&filter[advancedSearch][memberIdIn]=%7B%7D&filter[advancedSearch][memberPermissionsMatchAnd]=%7B%7D&filter[advancedSearch][memberPermissionsMatchOr]=%7B%7D&filter[advancedSearch][metadataProfileId]=%7B%7D&filter[advancedSearch][noDistributionProfiles]=%7B%7D&filter[advancedSearch][not]=%7B%7D&filter[advancedSearch][objectType]=%7B%7D&filter[advancedSearch][orderBy]=%7B%7D&filter[advancedSearch][type]=%7B%7D&filter[advancedSearch][updatedAtGreaterThanOrEqual]=%7B%7D&filter[advancedSearch][updatedAtLessThanOrEqual]=%7B%7D&filter[advancedSearch][userIdEqual]=%7B%7D&filter[advancedSearch][userIdIn]=%7B%7D&filter[advancedSearch][value]=%7B%7D&filter[advancedSearch][watermarkId]=%7B%7D&filter[createdAtGreaterThanOrEqual]=%7B%7D&filter[createdAtLessThanOrEqual]=%7B%7D&filter[dirtyStatusEqual]=%7B%7D&filter[dirtyStatusIn]=%7B%7D&filter[distributionProfileIdEqual]=%7B%7D&filter[distributionProfileIdIn]=%7B%7D&filter[entryIdEqual]=%7B%7D&filter[entryIdIn]=%7B%7D&filter[idEqual]=%7B%7D&filter[idIn]=%7B%7D&filter[orderBy]=%7B%7D&filter[statusEqual]=%7B%7D&filter[statusIn]=%7B%7D&filter[submittedAtGreaterThanOrEqual]=%7B%7D&filter[submittedAtLessThanOrEqual]=%7B%7D&filter[sunriseGreaterThanOrEqual]=%7B%7D&filter[sunriseLessThanOrEqual]=%7B%7D&filter[sunsetGreaterThanOrEqual]=%7B%7D&filter[sunsetLessThanOrEqual]=%7B%7D&filter[updatedAtGreaterThanOrEqual]=%7B%7D&filter[updatedAtLessThanOrEqual]=%7B%7D&No Name=%7B%7D&pager[pageIndex]=%7B%7D&pager[pageSize]=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "List all distribution providers"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "fb9c9f7d-3d85-4fd2-9289-76205ebd122d"
+            }
+          ]
+        },
+        {
+          "id": "5db3a435-e942-43cb-96d8-8fa36bba3952",
+          "name": "entryDistribution.retrySubmit",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/retrySubmit?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Retries last submit action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "4abf6e90-c83f-4965-94e4-d62c9b1914d2"
+            }
+          ]
+        },
+        {
+          "id": "67c59ee9-6a23-4baa-9a41-cd308b7f0dcd",
+          "name": "entryDistribution.serveReturnedData",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/serveReturnedData?actionType=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Serves entry distribution returned data"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "57d21a3e-b910-4633-b36d-090a6b202097"
+            }
+          ]
+        },
+        {
+          "id": "5621de02-a491-40c7-8db4-c2c13ff2f6c9",
+          "name": "entryDistribution.serveSentData",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/serveSentData?actionType=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Serves entry distribution sent data"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "fd3ac940-705c-4af2-9485-301a434ddac6"
+            }
+          ]
+        },
+        {
+          "id": "44807d47-574b-45a4-9b86-dd5c173f80cb",
+          "name": "entryDistribution.submitAdd",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/submitAdd?id=%7B%7D&No Name=%7B%7D&submitWhenReady=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Submits Entry Distribution to the remote destination"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "668a8d6f-8428-47c6-942c-ccc0f67ad28d"
+            }
+          ]
+        },
+        {
+          "id": "9ad6f811-b019-4366-989a-7d0ff4ba2bb3",
+          "name": "entryDistribution.submitDelete",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/submitDelete?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Deletes Entry Distribution from the remote destination"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "a0baf50f-dd95-43ed-85e5-fc80ceb64a44"
+            }
+          ]
+        },
+        {
+          "id": "615c1434-37e1-4677-864f-a47cf280bb56",
+          "name": "entryDistribution.submitFetchReport",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/submitFetchReport?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Submits Entry Distribution report request"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "484c3c97-c276-44d6-8f98-d82569daf09f"
+            }
+          ]
+        },
+        {
+          "id": "15daa33e-0b9b-4e4e-a627-b556b4227687",
+          "name": "entryDistribution.submitUpdate",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/submitUpdate?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Submits Entry Distribution changes to the remote destination"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "d0b4f05d-71fa-471b-9640-7dd1414f254a"
+            }
+          ]
+        },
+        {
+          "id": "0a7b6bc3-7bbd-4ff5-8aa7-a96a0aa4e325",
+          "name": "entryDistribution.update",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/update?entryDistribution[assetIds]=%7B%7D&entryDistribution[distributionProfileId]=%7B%7D&entryDistribution[entryId]=%7B%7D&entryDistribution[flavorAssetIds]=%7B%7D&entryDistribution[sunrise]=%7B%7D&entryDistribution[sunset]=%7B%7D&entryDistribution[thumbAssetIds]=%7B%7D&entryDistribution[validationErrors]=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Update Entry Distribution by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "2255934a-17ce-43cc-97bd-67c8a899c742"
+            }
+          ]
+        },
+        {
+          "id": "bed7bd01-5593-45bd-9b59-ef65758a7d19",
+          "name": "entryDistribution.validate",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/validate?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Validates Entry Distribution by id for submission"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "34da08a8-72bb-4a63-8da1-f191a49059db"
+            }
+          ]
+        },
+        {
+          "id": "15e06c4a-69e9-4dd5-b387-5ae4c6ca3de5",
+          "name": "genericDistributionProvider.add",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovider/action/add?genericDistributionProvider[availabilityUpdateEnabled]=%7B%7D&genericDistributionProvider[deleteInsteadUpdate]=%7B%7D&genericDistributionProvider[editableFields]=%7B%7D&genericDistributionProvider[intervalBeforeSunrise]=%7B%7D&genericDistributionProvider[intervalBeforeSunset]=%7B%7D&genericDistributionProvider[isDefault]=%7B%7D&genericDistributionProvider[mandatoryFields]=%7B%7D&genericDistributionProvider[name]=%7B%7D&genericDistributionProvider[optionalFlavorParamsIds]=%7B%7D&genericDistributionProvider[optionalThumbDimensions]=%7B%7D&genericDistributionProvider[requiredFlavorParamsIds]=%7B%7D&genericDistributionProvider[requiredThumbDimensions]=%7B%7D&genericDistributionProvider[scheduleUpdateEnabled]=%7B%7D&genericDistributionProvider[updateRequiredEntryFields]=%7B%7D&genericDistributionProvider[updateRequiredMetadataXPaths]=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add new Generic Distribution Provider"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "f6e3ee4e-e004-4693-9d82-6cbeea0c2cee"
+            }
+          ]
+        },
+        {
+          "id": "56de973f-8af2-4758-b323-747dd53d46ce",
+          "name": "genericDistributionProvider.delete",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovider/action/delete?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Delete Generic Distribution Provider by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "04f318a4-74bf-4ee5-b497-a8513c801cd4"
+            }
+          ]
+        },
+        {
+          "id": "9526a2c5-836a-4127-b649-0d769f5d22a3",
+          "name": "genericDistributionProvider.get",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovider/action/get?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Get Generic Distribution Provider by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "0f461e58-f75a-4596-90a6-e723e854aca4"
+            }
+          ]
+        },
+        {
+          "id": "82ac8909-c2ad-425c-a6cd-10931c6670b2",
+          "name": "genericDistributionProvider.list",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovider/action/list?filter[advancedSearch][attribute]=%7B%7D&filter[advancedSearch][categoriesMatchOr]=%7B%7D&filter[advancedSearch][categoryEntryStatusIn]=%7B%7D&filter[advancedSearch][categoryIdEqual]=%7B%7D&filter[advancedSearch][comparison]=%7B%7D&filter[advancedSearch][contentLike]=%7B%7D&filter[advancedSearch][contentMultiLikeAnd]=%7B%7D&filter[advancedSearch][contentMultiLikeOr]=%7B%7D&filter[advancedSearch][cuePointsFreeText]=%7B%7D&filter[advancedSearch][cuePointSubTypeEqual]=%7B%7D&filter[advancedSearch][cuePointTypeIn]=%7B%7D&filter[advancedSearch][depthGreaterThanEqual]=%7B%7D&filter[advancedSearch][distributionProfileId]=%7B%7D&filter[advancedSearch][distributionSunStatus]=%7B%7D&filter[advancedSearch][entryDistributionFlag]=%7B%7D&filter[advancedSearch][entryDistributionStatus]=%7B%7D&filter[advancedSearch][entryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][extendedStatusEqual]=%7B%7D&filter[advancedSearch][extendedStatusIn]=%7B%7D&filter[advancedSearch][field]=%7B%7D&filter[advancedSearch][hasEntryDistributionValidationErrors]=%7B%7D&filter[advancedSearch][idEqual]=%7B%7D&filter[advancedSearch][idIn]=%7B%7D&filter[advancedSearch][indexIdGreaterThan]=%7B%7D&filter[advancedSearch][isQuiz]=%7B%7D&filter[advancedSearch][items]=%7B%7D&filter[advancedSearch][memberIdEq]=%7B%7D&filter[advancedSearch][memberIdIn]=%7B%7D&filter[advancedSearch][memberPermissionsMatchAnd]=%7B%7D&filter[advancedSearch][memberPermissionsMatchOr]=%7B%7D&filter[advancedSearch][metadataProfileId]=%7B%7D&filter[advancedSearch][noDistributionProfiles]=%7B%7D&filter[advancedSearch][not]=%7B%7D&filter[advancedSearch][objectType]=%7B%7D&filter[advancedSearch][orderBy]=%7B%7D&filter[advancedSearch][type]=%7B%7D&filter[advancedSearch][updatedAtGreaterThanOrEqual]=%7B%7D&filter[advancedSearch][updatedAtLessThanOrEqual]=%7B%7D&filter[advancedSearch][userIdEqual]=%7B%7D&filter[advancedSearch][userIdIn]=%7B%7D&filter[advancedSearch][value]=%7B%7D&filter[advancedSearch][watermarkId]=%7B%7D&filter[createdAtGreaterThanOrEqual]=%7B%7D&filter[createdAtLessThanOrEqual]=%7B%7D&filter[idEqual]=%7B%7D&filter[idIn]=%7B%7D&filter[isDefaultEqual]=%7B%7D&filter[isDefaultIn]=%7B%7D&filter[orderBy]=%7B%7D&filter[partnerIdEqual]=%7B%7D&filter[partnerIdIn]=%7B%7D&filter[statusEqual]=%7B%7D&filter[statusIn]=%7B%7D&filter[typeEqual]=%7B%7D&filter[typeIn]=%7B%7D&filter[updatedAtGreaterThanOrEqual]=%7B%7D&filter[updatedAtLessThanOrEqual]=%7B%7D&No Name=%7B%7D&pager[pageIndex]=%7B%7D&pager[pageSize]=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "List all distribution providers"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "be01bc11-72d0-4b24-b28e-c3e0115a70ba"
+            }
+          ]
+        },
+        {
+          "id": "cd8d0fbb-9e97-44b1-b2c1-a01fd24dcea8",
+          "name": "genericDistributionProvider.update",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovider/action/update?genericDistributionProvider[availabilityUpdateEnabled]=%7B%7D&genericDistributionProvider[deleteInsteadUpdate]=%7B%7D&genericDistributionProvider[editableFields]=%7B%7D&genericDistributionProvider[intervalBeforeSunrise]=%7B%7D&genericDistributionProvider[intervalBeforeSunset]=%7B%7D&genericDistributionProvider[isDefault]=%7B%7D&genericDistributionProvider[mandatoryFields]=%7B%7D&genericDistributionProvider[name]=%7B%7D&genericDistributionProvider[optionalFlavorParamsIds]=%7B%7D&genericDistributionProvider[optionalThumbDimensions]=%7B%7D&genericDistributionProvider[requiredFlavorParamsIds]=%7B%7D&genericDistributionProvider[requiredThumbDimensions]=%7B%7D&genericDistributionProvider[scheduleUpdateEnabled]=%7B%7D&genericDistributionProvider[updateRequiredEntryFields]=%7B%7D&genericDistributionProvider[updateRequiredMetadataXPaths]=%7B%7D&id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Update Generic Distribution Provider by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "93f9073b-24bf-4bbc-9fcf-62313245fd85"
+            }
+          ]
+        },
+        {
+          "id": "4498cab5-f666-4510-adbd-3396f3b5ce8b",
+          "name": "genericDistributionProviderAction.add",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/add?genericDistributionProviderAction[action]=%7B%7D&genericDistributionProviderAction[editableFields]=%7B%7D&genericDistributionProviderAction[genericDistributionProviderId]=%7B%7D&genericDistributionProviderAction[mandatoryFields]=%7B%7D&genericDistributionProviderAction[protocol]=%7B%7D&genericDistributionProviderAction[remotePassword]=%7B%7D&genericDistributionProviderAction[remotePath]=%7B%7D&genericDistributionProviderAction[remoteUsername]=%7B%7D&genericDistributionProviderAction[resultsParser]=%7B%7D&genericDistributionProviderAction[serverAddress]=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add new Generic Distribution Provider Action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "fa0eeb16-b4c9-4b3a-aea7-fec26015e9e0"
+            }
+          ]
+        },
+        {
+          "id": "4952b89c-b9a1-49bd-acca-4cb1385403cf",
+          "name": "genericDistributionProviderAction.addMrssTransform",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addMrssTransform?id=%7B%7D&No Name=%7B%7D&xslData=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add MRSS transform file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "6f9e19c0-ce06-4f5c-9d37-aa171ccc5502"
+            }
+          ]
+        },
+        {
+          "id": "c3b5cd5c-fa36-4da9-a7b0-ed53aea00c73",
+          "name": "genericDistributionProviderAction.addMrssTransformFromFile",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addMrssTransformFromFile?id=%7B%7D&No Name=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "xslFile",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "XSL MRSS transformation file"
+                }
+              ]
+            },
+            "description": "Add MRSS transform file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "9521d162-cba5-4f76-9b05-60f724d3c967"
+            }
+          ]
+        },
+        {
+          "id": "f16c6198-18a9-4d01-bd2a-915c4f2c30f1",
+          "name": "genericDistributionProviderAction.addMrssValidate",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addMrssValidate?id=%7B%7D&No Name=%7B%7D&xsdData=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add MRSS validate file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "7e551e9c-b6ed-41e8-8e39-9b98bb21cdfa"
+            }
+          ]
+        },
+        {
+          "id": "25ef4951-eb17-4b99-93f1-e74a6191aa42",
+          "name": "genericDistributionProviderAction.addMrssValidateFromFile",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addMrssValidateFromFile?id=%7B%7D&No Name=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "xsdFile",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "XSD MRSS validatation file"
+                }
+              ]
+            },
+            "description": "Add MRSS validate file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "f3ab4463-f634-49f6-99de-3a072d5191d1"
+            }
+          ]
+        },
+        {
+          "id": "11d0613e-8e46-438f-ac90-9a979b666509",
+          "name": "genericDistributionProviderAction.addResultsTransform",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addResultsTransform?id=%7B%7D&No Name=%7B%7D&transformData=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Add results transform file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "c583e6b2-acae-4e5a-9450-b98253207855"
+            }
+          ]
+        },
+        {
+          "id": "cfa57ad2-033e-4e5c-b8f7-81b63d159f9d",
+          "name": "genericDistributionProviderAction.addResultsTransformFromFile",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/addResultsTransformFromFile?id=%7B%7D&No Name=%7B%7D",
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "transformFile",
+                  "value": "{}",
+                  "disabled": false,
+                  "description": "transformation file xsl, xPath or regex"
+                }
+              ]
+            },
+            "description": "Add MRSS transform file to generic distribution provider action"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "a6ba077b-faa9-4c84-85ea-3f1cd86671ea"
+            }
+          ]
+        },
+        {
+          "id": "015a4362-d560-4b2b-ab39-08409b9ea763",
+          "name": "genericDistributionProviderAction.delete",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/delete?id=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Delete Generic Distribution Provider Action by id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "bc7ba083-edc8-4962-99d0-e04fc43a7769"
+            }
+          ]
+        },
+        {
+          "id": "1ab5472d-2f7e-4d78-86f8-fc32d844651a",
+          "name": "genericDistributionProviderAction.deleteByProviderId",
+          "request": {
+            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_genericdistributionprovideraction/action/deleteByProviderId?actionType=%7B%7D&genericDistributionProviderId=%7B%7D&No Name=%7B%7D",
+            "method": "GET",
+            "body": {
+              "mode": "raw"
+            },
+            "description": "Delete Generic Distribution Provider Action by provider id"
+          },
+          "response": [
+            {
+              "status": "OK",
+              "code": 200,
+              "name": "Response_200",
+              "id": "97c61e68-d301-4b9e-b0b9-009d6f20ea78"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
