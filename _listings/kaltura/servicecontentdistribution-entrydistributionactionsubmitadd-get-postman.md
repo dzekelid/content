@@ -550,30 +550,4 @@
               "code": 200,
               "name": "Response_200",
               "id": "9ac3fb11-b3d4-41f0-a515-9ddf104fd900"
-            }
-          ]
-        },
-        {
-          "id": "cadba9d7-83ff-47b8-ab65-22284be28a60",
-          "name": "entryDistribution.submitAdd",
-          "request": {
-            "url": "http://www.kaltura.com/api_v3/service/contentdistribution_entrydistribution/action/submitAdd?id=%7B%7D&No Name=%7B%7D&submitWhenReady=%7B%7D",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Submits Entry Distribution to the remote destination"
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "9f139696-f209-4520-8390-5bf209de47bc"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+      
