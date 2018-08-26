@@ -1,24 +1,24 @@
 ---
 name: Blogger
+x-slug: blogger
 description: Blogger is a blog-publishing service that allows multi-user blogs with
   time-stamped entries. It was developed by Pyra Labs, which was bought by Google
   in 2003. Generally, the blogs are hosted by Google at a subdomain of blogspot.com.
   Blogs can also be hosted in the registered custom domain of the blogger (like www.example.com).
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Content
-- CMS
-- Blog
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/blogger/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/blogger/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://blockchain.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://blogger.stack.network
 - type: x-blog
   url: https://blogger.googleblog.com/
 - type: x-website

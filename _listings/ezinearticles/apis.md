@@ -1,29 +1,17 @@
 ---
 name: EzineArticles
-description: EzineArticles allows users to get exposure  traffic back to their website
-  in exchange for the submission of their short original articles. Ultimately, EzineArticles.com
-  is a online content publishing platform with user-friendly article submission  analytic
-  tools. Every user-generated submission is human curated for quality control. Expert
-  Authors (what EzineArticles calls its members) submit articles 250-5000 words long
-  that are typically ???how to??? or educational by nature. In exchange for their
-  content, users can include a resource box at the bottom of each article that gives
-  the reader an opportunity to learn more about the author/expert and visit their
-  website.
+x-slug: ezinearticles
+description: EzineArticles.com is 400,000+ Expert Authors who share their best quality,
+  original articles with our 30+ million monthly visitors. Our platform allows users
+  to get exposure & traffic back to their website in exchange for the submission of
+  their short,...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/402-ezinearticles.jpg
 x-kinRank: "8"
 x-alexaRank: "12336"
-tags:
-- Technology
-- Stack Network
-- Publishing
-- News
-- Magazines
-- internet
-- Content
-- Articles
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/ezinearticles/apis.yaml
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/ezinearticles/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -37,8 +25,6 @@ x-common:
   url: https://crunchbase.com/organization/ezinearticles
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/ezinearticles
-- type: x-developer
-  url: http://api.ezinearticles.com/
 - type: x-twitter
   url: https://twitter.com/EzineArticles
 - type: x-website

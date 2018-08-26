@@ -1,26 +1,26 @@
 ---
 name: AWS CloudFront
+x-slug: aws-cloudfront
 description: Amazon CloudFront is a global content delivery network (CDN) service
   that accelerates delivery of your websites, APIs, video content or other web assets.
   It integrates with other Amazon Web Services products to give developers and businesses
   an easy way to accelerate content to end users with no minimum usage commitments.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Storage
-- Stack Network
-- Content
-- CDN
-- Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/aws-cloudfront/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/aws-cloudfront/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-analysis
   url: https://aws.amazon.com/cloudfront/reporting/
+- type: x-api-gallery
+  url: http://aws.cloudformation.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudfront.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonCloudFront/latest/APIReference/
 - type: x-faq

@@ -1,21 +1,15 @@
 ---
 name: Copify
-description: Copify provides a platform for online marketing professionals to source
-  content from a pool of copywriters. Whatever kind of marketing you are involved
-  in, there???s almost always a need for quality, relevant copy. Copify is attempting
-  to take the hard work out of sourcing freelance copy at short notice.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/copify-logo.jpg
+x-slug: copify
+description: Quick, quality content from approved UK copywriters. Order online in
+  seconds!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1320-copify.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Writing
-- Target
-- Stack Network
-- Copywriting
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/copify/apis.yaml
+x-alexaRank: "244277"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/copify/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -25,6 +19,8 @@ x-common:
   url: http://blog.copify.com
 - type: x-blog-rss
   url: http://blog.copify.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/copify
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/copify
 - type: x-developer

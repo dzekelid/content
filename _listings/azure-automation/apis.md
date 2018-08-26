@@ -9,83 +9,68 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Content
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Automation API Dsc Configuration Get Content
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Dsc Configuration Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get
   description: Retrieve the configuration script identified by configuration name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/configurations/{configurationName}/content
-  tags: Dsc, Configuration, , Content
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnameconfigurationsconfigurationnamecontent-get-openapi.md
-- name: Azure Automation API Node Reports Get Content
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Node Reports Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get
   description: Retrieve the Dsc node reports by node id and report id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/nodes/{nodeId}/reports/{reportId}/content
-  tags: Node, Reports, , Content
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get-openapi.md
-- name: Azure Automation API Job Get Runbook Content
-  x-api-slug: azure-automation-api
-  description: Retrieve the runbook content of the job identified by job id.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
-  humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/jobs/{jobId}/runbookContent
-  tags: Job, , Runbook, Content
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamejobsjobidrunbookcontent-get-openapi.md
-- name: Azure Automation API Runbook Draft Get Content
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Runbook Draft Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamedraftcontent-get
   description: Retrieve the content of runbook draft identified by runbook name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/runbooks/{runbookName}/draft/content
-  tags: Runbook, Draft, , Content
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamedraftcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamedraftcontent-get-openapi.md
-- name: Azure Automation API Runbook Get Content
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Runbook Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamecontent-get
   description: Retrieve the content of runbook identified by runbook name.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/runbooks/{runbookName}/content
-  tags: Runbook, , Content
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamecontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamerunbooksrunbooknamecontent-get-openapi.md
-- name: Azure Automation API
-  x-api-slug: azure-automation-api
-  description: Automate all of those frequent, time-consuming, and error-prone cloud
-    management tasks. Azure Automation helps you focus on work that adds business
-    value. By reducing errors and boosting efficiency, it also helps to lower your
-    operational costs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
-  humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com//
-  tags: Content
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/azure-automation/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.application.insights.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.automation.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
 - type: x-pricing

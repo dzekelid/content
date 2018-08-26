@@ -7,47 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Content
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box File upload preflight check
-  x-api-slug: box
-  description: The Pre-flight check API will verify that a file will be accepted by
-    Box before you send all the bytes over the wire.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
-  humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//files/content
-  tags: Documents,Files, Content
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/filescontent-options-openapi.md
-- name: Box Download File
-  x-api-slug: box
+- name: Box - Download File
+  x-api-slug: filesfile-idcontent-get
   description: Retrieves the actual data of the file. An optional version parameter
     can be set to download a previous version of the file.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//files/{FILE_ID}/content
-  tags: Documents,Files, File, , Content
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/filesfile-idcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/filesfile-idcontent-get-openapi.md
-- name: Box
-  x-api-slug: box
-  description: Box.net provides a sophisticated API for their online document sharing
-    and collaboration web application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
-  humanURL: http://box.com
-  baseURL: https://api.box.com//2.0
-  tags: Content
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://botify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://box.stack.network
 - type: x-base
   url: https://api.box.com/
 - type: x-blog
@@ -61,7 +45,7 @@ x-common:
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
-  url: https://github.com/boxdotnet
+  url: https://github.com/box
 - type: x-pricing
   url: https://developers.box.com/box-platform-pricing/
 - type: x-road-map

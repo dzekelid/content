@@ -1,5 +1,6 @@
 ---
 name: Houghton Mifflin Harcourt
+x-slug: houghton-mifflin-harcourt
 description: Houghton Mifflin Harcourts (HMH) Developer Portal is an HMH Labs initiative
   to expose the HMH APIs to others, including customers and third party developers.
   This creates an exciting opportunity for developers to build solutions that are
@@ -10,16 +11,11 @@ description: Houghton Mifflin Harcourts (HMH) Developer Portal is an HMH Labs in
   for teachers, students and parents.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hmh_logo_detail.gif
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Publishers
-- Getting Started
-- Education
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/houghton-mifflin-harcourt/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/houghton-mifflin-harcourt/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

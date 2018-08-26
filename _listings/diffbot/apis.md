@@ -1,26 +1,15 @@
 ---
 name: Diffbot
-description: Diffbot provides a set of APIs that enable developers to easily use web
-  data in their own applications. Diffbot analyzes documents much like a human would,
-  using the visual properties to determine how the parts of the page fit together.
-  The algorithm uses statistical techniques to automatically and reliably determine
-  the structural organization of a page, independent of layout and the language of
-  the text.
-image: https://avatars.githubusercontent.com/u/3622685?v=3
+x-slug: diffbot
+description: Never write another web scraper. Diffbot automates web data extraction
+  from any website using AI, computer vision, &amp; machine learning.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Scraping
-- Machine Learning Scraping
-- Machine Learning
-- Extraction
-- Deployment
-- Crawler
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/diffbot/apis.yaml
+x-alexaRank: "304032"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/diffbot/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -31,7 +20,13 @@ x-common:
 - type: x-blog-rss
   url: http://www.diffbot.com/api/rss/www.diffbot.com/blog
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/diffbot
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/diffbot
+- type: x-email
+  url: support@diffbot.com
+- type: x-email
+  url: sales@diffbot.com
 - type: x-github
   url: https://github.com/diffbot
 - type: x-twitter

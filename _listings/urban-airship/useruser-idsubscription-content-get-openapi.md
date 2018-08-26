@@ -37,14 +37,14 @@ paths:
   /app/content/{product_id}/download:
     post:
       summary: Post App Content Product Download
-      description: "Returns a temporary URL where the client can download the content.
+      description: Returns a temporary URL where the client can download the content.
         In the payload, the receipt string is the receipt data from the purchase.
         It should be unaltered from how Apple delivers it to your application.udid
-        is an optional field to help identify a particular user\u2019s purchases,
-        which can aid debugging. It should always be a hash of the UDID, not the actual
-        UDID, to ensure compliance with Apple\u2019s TOS. The optional version field
-        should be the StoreFront library version, or custom if you\u2019re building
-        your own."
+        is an optional field to help identify a particular user???s purchases, which
+        can aid debugging. It should always be a hash of the UDID, not the actual
+        UDID, to ensure compliance with Apple???s TOS. The optional version field
+        should be the StoreFront library version, or custom if you???re building your
+        own.
       operationId: app.content.product_id.download.post
       x-api-path-slug: appcontentproduct-iddownload-post
       parameters:

@@ -1,24 +1,14 @@
 ---
 name: Public Insight Network
-description: Every day, sources in the Public Insight Network add context, depth,
-  humanity and relevance to news stories at trusted newsrooms around the country.
-  American Public Media provides journalists with the tools and training to tap PIN???s
-  growing Network of sources, engage their own audiences, and produce high-quality
-  journalism. Using our industry-leading platform, journalists and citizens reach
-  beyond pundits, PR professionals and polemics to inform themselves and each other,
-  strengthening the communities they serve.
+x-slug: public-insight-network
+description: 'Read more about us from Current magazine: http://www.current.org/news/news1102publicinsight.html'
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1823-publicinsight.jpg
 x-kinRank: "8"
 x-alexaRank: "2210151"
-tags:
-- Stack Network
-- Questions
-- Publishing
-- News
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/public-insight-network/apis.yaml
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/public-insight-network/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

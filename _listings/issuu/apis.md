@@ -1,33 +1,46 @@
 ---
 name: Issuu
-description: Issuu is digital publishing and discovery platform that connects people
-  to content for which they have great passion, created by publishers large and small,
-  that share that passion. A digital publishing service that reimagines the print
-  experience, Issuu hosts over 17 million publications and serves over 5.5 billion
-  page-views to over 80 million active readers each month. The site features leading
-  and emerging titles in fashion, culture, arts, hobbies, catalogs and hyperlocal
-  content, all of which are accessible on any device.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/issuu.png
+x-slug: issuu
+description: Millions of readers find and share the magazines, catalogs and publications
+  they love on issuu.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/428-issuu.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Publishing
-- Magazines
-- Content Discovery
-- Content
-- Books
-- Articles
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/issuu/apis.yaml
+x-alexaRank: "744"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/issuu/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-base
   url: http://issuu.com/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/issuu
 - type: x-developer
   url: http://developers.issuu.com/
+- type: x-developer
+  url: https://developer.issuu.com/
+- type: x-email
+  url: pr@issuu.com
+- type: x-email
+  url: partnerships@issuu.com
+- type: x-email
+  url: copyright@issuu.com
+- type: x-email
+  url: support@issuu.com
+- type: x-email
+  url: careers@issuu.com
+- type: x-email
+  url: feedback@issuu.com
+- type: x-email
+  url: privacy@issuu.com
+- type: x-email
+  url: contact@issuu.com
+- type: x-embeddable
+  url: https://developer.issuu.com/oembed/
+- type: x-rate-limits
+  url: https://developer.issuu.com/api-limits/
 - type: x-twitter
   url: https://twitter.com/issuu
 - type: x-github

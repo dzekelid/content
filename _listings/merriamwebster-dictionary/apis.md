@@ -1,5 +1,6 @@
 ---
 name: Merriam-Webster Dictionary
+x-slug: merriamwebster-dictionary
 description: The Merriam-Webster Dictionary API gives developers access to a comprehensive
   resource of dictionary and thesaurus content as well as specialized medical, Spanish,
   ESL, and student-friendly vocabulary. Make your applications better by integrating
@@ -10,16 +11,11 @@ description: The Merriam-Webster Dictionary API gives developers access to a com
   trusted references.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dev-center-logo-500x100.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Translation
-- Thesaurus
-- Stack Network
-- Dictionary
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/merriamwebster-dictionary/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/merriamwebster-dictionary/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

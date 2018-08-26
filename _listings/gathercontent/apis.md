@@ -1,21 +1,18 @@
 ---
 name: GatherContent
+x-slug: gathercontent
 description: GatherContent creating a better way for agencies and their clients to
   collaborate on meaningful, future-friendly content. Conceived from the frustration
-  of managing content-heavy digital initiatives for the Oil  Gas industry, GatherContent
+  of managing content-heavy digital initiatives for the Oil &amp; Gas industry, GatherContent
   launched in September 2012. Three short years later we now work with thousands of
   customers across 135 countries, managing millions of items of content.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gathercontent-logo.svg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Content Management
-- Content Collaboration
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/gathercontent/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/gathercontent/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

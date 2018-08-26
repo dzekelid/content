@@ -1,24 +1,18 @@
 ---
 name: TextRazor
-description: 'The service provides analysis of selected text passages to identify
-  named entities and statements of fact with disambiguation to distinguish similar
-  text strings. It applies machine learning algorithms and natural language processing
+x-slug: textrazor
+description: The service provides analysis of selected text passages to identify named
+  entities and statements of fact with disambiguation to distinguish similar text
+  strings. It applies machine learning algorithms and natural language processing
   to connect a text sample with a knowledge base and identify known elements and their
-  relationships. API methods support submission of a text sample to be parsed. '
+  relationships. API methods support submission of a text sample to be parsed.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/textrazor.gif
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Semantic
-- Scraping
-- Machine Learning Scraping
-- Machine Learning
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/textrazor/apis.yaml
+x-alexaRank: "0"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/textrazor/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

@@ -1,20 +1,15 @@
 ---
 name: ContentGems
-description: ContentGems helps marketers find, curate, and share engaging content
-  so they can build their companys thought leadership and increase qualified website
-  traffic. ContentGems was founded in 2011 by Jeff Ward, Joachim Hund, and Michael
-  J. Fern, who were seeking to carry out content marketing for their own software
-  development and consulting businesses.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/contentgems.jpeg
+x-slug: contentgems
+description: ContentGems automatically powers your social media, website, & customer
+  newsletter with engaging curated content. Join a live demo https://t.co/btzKkJ2Jhe.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1336-contentgems.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Content Discovery
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/contentgems/apis.yaml
+x-alexaRank: "643519"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/contentgems/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -24,8 +19,12 @@ x-common:
   url: http://blog.contentgems.com/
 - type: x-blog-rss
   url: http://blog.contentgems.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/contentgems
 - type: x-developer
   url: https://contentgems.com/api
+- type: x-email
+  url: contact@contentgems.com
 - type: x-github
   url: https://github.com/intigi
 - type: x-twitter

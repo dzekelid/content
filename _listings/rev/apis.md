@@ -1,25 +1,15 @@
 ---
 name: Rev
-description: Rev.com is a new breed of service provider. Like traditional vendors,
-  we rely on a network of hand-picked freelancers. Unlike traditional vendors, we
-  use technology to offer unbeatable quality, speed, and value. Revs proprietary technology
-  platform is built to create a great work environment for translators and transcriptionists,
-  so we can deliver clients ever increasing speed and quality.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1846_logo.png
+x-slug: rev
+description: Online audio transcription, video captions and document translation services.
+  For immigration, business, legal, academic and personal needs.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1846-rev.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Transcription
-- Target
-- Stack Network
-- Content
-- Audio Transcription
-- Audio Indexing
-- Audio
-- Audio
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/rev/apis.yaml
+x-alexaRank: "14610"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/rev/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -29,10 +19,16 @@ x-common:
   url: http://blog.rev.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/rev
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/rev
 - type: x-developer
   url: http://www.rev.com/api
 - type: x-email
   url: support@rev.com.
+- type: x-email
+  url: support@rev.com
+- type: x-email
+  url: servicesagreement@rev.com
 - type: x-twitter
   url: https://twitter.com/rev
 - type: x-website

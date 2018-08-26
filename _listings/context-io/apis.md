@@ -6,13 +6,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: Content
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO Get Accounts Files Fileid Content
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Files Fileid Content
+  x-api-slug: accountsidfilesfileidcontent-get
   description: 'Downloads a given file. Returns the content a given attachment. On-demand
     data retrieval: since we do not keep full copies of attachments on our servers,
     the file has to be retrieved from the IMAP server when this call is made. If the
@@ -20,25 +20,19 @@ apis:
     an error.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/files/{fileId}/content
-  tags: Accounts,Files,FileId,Content
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/context-io/accountsidfilesfileidcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/context-io/accountsidfilesfileidcontent-get-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
-  humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0/
-  tags: Content
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/context-io/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://constant.contact.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://context.io.stack.network
 - type: x-base
   url: https://api.context.io/
 - type: x-blog

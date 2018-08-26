@@ -1,24 +1,15 @@
 ---
 name: WebPurify
-description: 'WebPurify provides profanity filtering, image and video moderation services
-  that can be easily integrated in to your website or application. The WebPurify Profanity
-  Filter is an accurate and efficient web service that can be easily integrated into
-  any web application. With WebPurify, the profanity list updates automatically to
-  maximize accuracy. In addition to scanning for profanity, WebPurify allows the user
-  to add their personal list of words to filter. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/524_logo.png
+x-slug: webpurify
+description: Profanity Filtering, Image Moderation and Video Moderation Services starting
+  at $5 per month. Start a free trial today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/524-webpurify.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Profanity
-- Filter
-- Content Filtering
-- Content
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/content/master/_listings/webpurify/apis.yaml
+x-alexaRank: "1238530"
+tags: Content
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/webpurify/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,6 +19,8 @@ x-common:
   url: http://www.webpurify.com/blog/
 - type: x-blog-rss
   url: http://www.webpurify.com/blog/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/webpurify
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/webpurify
 - type: x-twitter
