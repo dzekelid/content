@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: LogMeIn
 x-complete: 1
@@ -14,4 +13,72 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /archive/recordings/archived/{recordingIDs}:
+    put:
+      summary: Mark Recordings as Archived
+      description: "This method marks a list of recordings as archived by setting
+        their archived flag to \u201Ctrue.\u201D No more than 500 recordings can be
+        marked as archived once.\n\nNote: Session recording must be enabled on the
+        account in order to use this API method. To enable session recording, log
+        in at https://app.gotoassist.com (link is external) and go to Configure >
+        GoToAssist Settings > Enable Session Recording check box.\n\n  Request Parameters
+        \                   \n                      \n    field        data type      description
+        \   \n    recordingIds        array      A list of recordingIDs for the recordings
+        to be archived    \n\n\nStatus Codes                \n                \n    Staus
+        Code        description    \n    204 No Content        Recordings have been
+        archived    \n    400 Bad Request        Request may be malformed or property
+        may be missing or invalid    \n    403 Forbidden        Invalid authorization
+        header or invalid recordingIDs    \n    500 Internal Server Error        Unexpected
+        server error"
+      operationId: ArchiveRecordingsArchivedByRecordingIDsPut
+      x-api-path-slug: archiverecordingsarchivedrecordingids-put
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: path
+        name: recordingIDs
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mark
+      - Recordings
+      - As
+      - Archived
+  /archive/recordings/transcode/{readyForTranscodeRecordingIds}:
+    post:
+      summary: Transcode Recordings
+      description: "This method requests that a list of recordings be transcoded;
+        once the API passes successfully, transcoding will be initiated for each of
+        the recordings in the list. A result of \u201C204\u201D will be returned,
+        regardless of the current state of the recordings (i.e., even if they are
+        already transcoded). No more than 500 recordings can be transcoded at once.\n\nNote:
+        Session recording must be enabled on the account in order to use this API
+        method. To enable session recording, log in at https://app.gotoassist.com
+        (link is external) and go to Configure > GoToAssist Settings > Enable Session
+        Recording check box.\n\n  Request Parameters                    \n                      \n
+        \   field        data type      description    \n    recordingIds        array
+        \     A list of RecordingIds for the recordings to be transcoded    \n                      \n\nStatus
+        Codes                \n                \n    Staus Code        description
+        \   \n    204 No Content        Transcoding initiated    \n    400 Bad Request
+        \       Request may be malformed or property may be missing or invalid    \n
+        \   403 Forbidden        Invalid authorization header or invalid recordingIDs
+        \   \n    500 Internal Server Error        Unexpected server error"
+      operationId: ArchiveRecordingsTranscodeByReadyForTranscodeRecordingIdsPost
+      x-api-path-slug: archiverecordingstranscodereadyfortranscoderecordingids-post
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: path
+        name: readyForTranscodeRecordingIds
+      responses:
+        200:
+          description: OK
+      tags:
+      - Transcode
+      - Recordings

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ParetoNetwork
 x-complete: 1
@@ -37,4 +36,3 @@ paths:
       tags:
       - Content
       - Me
----

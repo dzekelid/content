@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Content
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Box - File upload preflight check
+  x-api-slug: filescontent-options
+  description: The Pre-flight check API will verify that a file will be accepted by
+    Box before you send all the bytes over the wire.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/box/filescontent-options-openapi.md
 - name: Box - Download File
   x-api-slug: filesfile-idcontent-get
   description: Retrieves the actual data of the file. An optional version parameter

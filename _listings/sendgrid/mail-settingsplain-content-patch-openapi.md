@@ -4,12 +4,12 @@ x-collection-name: SendGrid
 x-complete: 0
 info:
   title: SendGrid Patch Mail Settings Plain Content
-  description: "**This endpoint allows you to update your current Plain Content mail
-    settings.**\n\nThe plain content setting will automatically convert any plain
-    text emails that you send to HTML before sending.\n\nMail settings allow you to
-    tell SendGrid specific things to do to every email that you send to your recipients
-    over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-    or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+  description: |-
+    **This endpoint allows you to update your current Plain Content mail settings.**
+
+    The plain content setting will automatically convert any plain text emails that you send to HTML before sending.
+
+    Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -23,12 +23,12 @@ paths:
   /mail_settings/plain_content:
     get:
       summary: Get Mail Settings Plain Content
-      description: "**This endpoint allows you to retrieve your current Plain Content
-        mail settings.**\n\nThe plain content setting will automatically convert any
-        plain text emails that you send to HTML before sending.\n\nMail settings allow
-        you to tell SendGrid specific things to do to every email that you send to
-        your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to retrieve your current Plain Content mail settings.**
+
+        The plain content setting will automatically convert any plain text emails that you send to HTML before sending.
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: mail_settings.plain_content.get
       x-api-path-slug: mail-settingsplain-content-get
       parameters:
@@ -45,12 +45,12 @@ paths:
       - Content
     patch:
       summary: Patch Mail Settings Plain Content
-      description: "**This endpoint allows you to update your current Plain Content
-        mail settings.**\n\nThe plain content setting will automatically convert any
-        plain text emails that you send to HTML before sending.\n\nMail settings allow
-        you to tell SendGrid specific things to do to every email that you send to
-        your recipients over SendGrid\u2019s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html)
-        or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html)."
+      description: |-
+        **This endpoint allows you to update your current Plain Content mail settings.**
+
+        The plain content setting will automatically convert any plain text emails that you send to HTML before sending.
+
+        Mail settings allow you to tell SendGrid specific things to do to every email that you send to your recipients over SendGrid???s [Web API](https://sendgrid.com/docs/API_Reference/Web_API/mail.html) or [SMTP Relay](https://sendgrid.com/docs/API_Reference/SMTP_API/index.html).
       operationId: mail_settings.plain_content.patch
       x-api-path-slug: mail-settingsplain-content-patch
       parameters:

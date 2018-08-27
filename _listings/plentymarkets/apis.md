@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Content
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,37 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restdocumentsdocumentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restdocumentsdocumentid-get-openapi.md
+- name: plentymarkets REST-API - List all content links for a given plugin set
+  x-api-slug: restshop-buildercontent-links-get
+  description: List all content links for a given plugin set.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-links-get-openapi.md
+- name: plentymarkets REST-API - Link a content to a a layout container of a frontend
+    plugin.
+  x-api-slug: restshop-buildercontent-links-post
+  description: Link a content to a a layout container of a frontend plugin..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-links-post-openapi.md
+- name: plentymarkets REST-API - Delete a content link.
+  x-api-slug: restshop-buildercontent-linkscontentlinkid-delete
+  description: Delete a content link..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-linkscontentlinkid-delete-openapi.md
 - name: plentymarkets REST-API - Find a content link by id.
   x-api-slug: restshop-buildercontent-linkscontentlinkid-get
   description: Find a content link by id..
@@ -41,6 +72,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-linkscontentlinkid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-linkscontentlinkid-get-openapi.md
+- name: plentymarkets REST-API - Update a content link.
+  x-api-slug: restshop-buildercontent-linkscontentlinkid-put
+  description: Update a content link..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontent-linkscontentlinkid-put-openapi.md
+- name: plentymarkets REST-API - Create a new content.
+  x-api-slug: restshop-buildercontents-post
+  description: Create a new content..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontents-post-openapi.md
+- name: plentymarkets REST-API - Delete a content
+  x-api-slug: restshop-buildercontentscontentid-delete
+  description: Delete a content.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontentscontentid-delete-openapi.md
 - name: plentymarkets REST-API - Find a content by id.
   x-api-slug: restshop-buildercontentscontentid-get
   description: Find a content by id..
@@ -53,6 +114,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontentscontentid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontentscontentid-get-openapi.md
+- name: plentymarkets REST-API - Update a content.
+  x-api-slug: restshop-buildercontentscontentid-put
+  description: Update a content..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/plentymarkets/restshop-buildercontentscontentid-put-openapi.md
 - name: plentymarkets REST-API - List content pages from all plugins in a given plugin
     set.
   x-api-slug: restshop-builderpages-get

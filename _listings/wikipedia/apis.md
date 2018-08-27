@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipe
 x-kinRank: "8"
 x-alexaRank: "5"
 tags: Content
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/content/master/_listings/wikipedia/apis.md
 specificationVersion: "0.14"
 apis: []
